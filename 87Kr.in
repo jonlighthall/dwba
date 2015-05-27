@@ -3,11 +3,14 @@ r0target
 JBIGA=5/2 parbiga=+1 $ground state is 5/2+
 REACTION: 87Kr(d,p)88Kr(0+ 0.00) ELAB=12.08460998 $ground state transition
 PARAMETERSET alpha2
+$**** IN FUTURE RUNS INCREASE ASYMPTOPIA TO MORE THAN:           7.07 (PROJECTILE)          25.04 (TARGET)
 PROJECTILE
+ASUMPTOPIA 7.08
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
+ASYMPTOPIA 25.05
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -94,6 +97,7 @@ r0target
 JBIGA=5/2 parbiga=+1 $ground state is 5/2+
 REACTION: 87Kr(d,p)88Kr(0+ 5.00) ELAB=12.08460998 $updated outgoing
 PARAMETERSET alpha2
+$ **** IN FUTURE RUNS INCREASE ASYMPTOPIA TO MORE THAN:           6.21 (PROJECTILE)          25.11 (TARGET)
 PROJECTILE
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
@@ -151,6 +155,7 @@ r0target
 JBIGA=5/2 parbiga=+1 $ground state is 5/2+
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
+ **** IN FUTURE RUNS INCREASE ASYMPTOPIA TO MORE THAN:           6.95 (PROJECTILE)          25.17 (TARGET)
 PROJECTILE
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
@@ -208,7 +213,8 @@ reset
 r0target
 $The ground state of 87Kr is 5/2+
 $The lowest suspected state with 9/2 is at 2.25810
-E*BIGA=2.25810 JBIGA=9/2 parbiga=-1 
+$0**** L AND PARITIES ARE INCOMPATABLE:    4    1    1   -1
+E*BIGA=2.25810 JBIGA=9/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy 
 PARAMETERSET alpha2
 PROJECTILE
