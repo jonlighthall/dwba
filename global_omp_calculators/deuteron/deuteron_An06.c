@@ -3,7 +3,7 @@
 // Which is rated for 12 < A < 238 and 1 keV < E_t < 183 MeV
 
 #include <stdio.h>
-#include <math.h>
+#include <math.h> //added
 
 int main()
 {
@@ -73,6 +73,30 @@ int main()
    printf("V_so = %lf  MeV\n", V_so);
    printf("r_so = %lf  fm\n", r_so);
    printf("a_so = %lf  fm\n\n", a_so);
+   printf("*********************************\n");
+
+   //added below for PTOLEMY
+   printf("*********************************\n\n");
+   printf("Here are the requested parameters:\nFormatted for PTOLEMY\n");
+   printf("$Deuteron potential calculated for A=%d Z=%d E_d=%f\n",a,b,E_d);
+   printf("$Charge Radius\n");
+   printf("RC0 = %lf\n", r_c);
+   printf("$Real Volume Terms\n");
+   printf("V = %lf\n", V_r);
+   printf("R0 = %lf\n", r_v);
+   printf("A = %lf\n", a_v);
+   printf("$Imaginary Volume Terms\n");
+   printf("VI = %lf\n", W_v);
+   printf("RI0 = %lf\n", r_wv);
+   printf("AI = %lf\n", a_wv);
+   printf("$Imaginary Surface Terms\n");
+   printf("VSI = %lf\n", W_s);
+   printf("RSI0 = %lf\n", r_s);
+   printf("ASI= %lf\n", a_s);
+   printf("$Real Spin-Orbit Terms\n");
+   printf("VSO = %lf\n", V_so);
+   printf("RSO0 = %lf\n", r_so);
+   printf("ASO = %lf\n", a_so);
    printf("*********************************\n");
 
     return 0;
