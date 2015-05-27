@@ -205,7 +205,7 @@ writens crosssec
 $------------------------------------------------
 reset
 r0target
-JBIGA=9/2 parbiga=+1 $ground state is 5/2+
+$JBIGA=9/2 parbiga=+1 $ground state is 5/2+
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=4
 PARAMETERSET alpha2
 PROJECTILE
@@ -262,7 +262,7 @@ writens crosssec
 $------------------------------------------------
 reset
 r0target
-JBIGA=1/2 parbiga=+1 $first excited state is 1/2+
+$JBIGA=1/2 parbiga=+1 $first excited state is 1/2+
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=0
 PARAMETERSET alpha2
 PROJECTILE
