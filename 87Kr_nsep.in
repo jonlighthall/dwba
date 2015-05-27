@@ -130,10 +130,8 @@ $  l_n=1
 $  lowest 3/2 state is at 1.47613 and is 3/2+
 $  removed parbiga
 r0target
-$E*BIGA=1.47613
-$ JBIGA=3/2 $parbiga=+1 
+E*BIGA=1.47613 JBIGA=3/2 $parbiga=+1 
 $JBIGA=5/2 parbiga=+1 
-JBigB=1
 REACTION: 87Kr(d,p)88Kr(1- 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
@@ -144,7 +142,7 @@ Rc=1.2
 TARGET
 $ASYMPTOPIA=25.28
 NODES=1
-R0=1.25 A=.63 L=1 JP=1/2
+R0=1.25 A=.63 L=1 
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
