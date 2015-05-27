@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          26 May 15  234600.042
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  000140.304
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          26 May 15  234600.043
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  000140.305
 
 0INPUT... r0target
 0INPUT... JBIGA=5/2 parbiga=+1 $ground state is 5/2+
@@ -227,23 +227,23 @@
           COMPUTATION OF TRANSFER S-MATRIX ELEMENTS                                           WHEELS WITHIN WHEELS
 087Kr(d,p)88Kr(0+ 0.00)                       ELAB =  12.08 MEV                                                                      
 
-0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.151 SEC
- INTERPOLATING H'S                  0.011 SEC
- COMPUTING SCATTERING WAVES         0.001 SEC
- INTERPOLATING SCATTERING WAVES     0.006 SEC
- REST OF RI & RO LOOP               0.007 SEC
- REST OF LO LOOP                    0.001 SEC
+0TIME IN A12                        0.001 SEC
+ IN PHI & A12 LOOP                  0.158 SEC
+ INTERPOLATING H'S                  0.006 SEC
+ COMPUTING SCATTERING WAVES         0.000 SEC
+ INTERPOLATING SCATTERING WAVES     0.007 SEC
+ REST OF RI & RO LOOP               0.009 SEC
+ REST OF LO LOOP                    0.002 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.177 SEC
+ TOTAL TIME                         0.183 SEC
  NUMBER OF CALLS TO second           3352 CALLS
  
     36855000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.004 MICROSECONDS
-    12348000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.012 MICROSECONDS
+    12348000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.013 MICROSECONDS
      1701000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       567000 PASSES WERE MADE THE PHI LOOP
       117000 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-      117000 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.094 MICROSECONDS
+      117000 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.051 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -354,7 +354,7 @@
     2     3/2  5/2  4    0     4    0.947E-04    26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    2     2    0.306E-04    26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    4    26     0.00        26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
-0 TIME FOR L-INTERPOLATIONS :   0.001 SECONDS
+0 TIME FOR L-INTERPOLATIONS :   0.000 SECONDS
 
 1                                                        P T O L E M Y
                                       ELASTIC PARTIAL WAVE S-MATRIX ELEMENTS AND UNITARITY
@@ -1828,13 +1828,13 @@
 0
 0CPU TIMES FOR CROSS SECTIONS (SECONDS):
 0PRINTING PHASE SHIFTS            0.001
- ELASTIC CROSS SECTIONS           0.003
- BETA'S (SUM ON LI)               0.001
- REACTION CROSS SECTIONS          0.010          (   0.59 MFLOPS = 59.235 MFLOP/SEC )
+ ELASTIC CROSS SECTIONS           0.004
+ BETA'S (SUM ON LI)               0.000
+ REACTION CROSS SECTIONS          0.011          (   0.59 MFLOPS = 53.849 MFLOP/SEC )
  REACTION ANALYZING POWERS        0.001
- ELASTIC ANALYZING POWERS         0.002
- ALL OTHER TIME                   0.000
- TOTAL TIME                              0.018
+ ELASTIC ANALYZING POWERS         0.001
+ ALL OTHER TIME                   0.001
+ TOTAL TIME                              0.019
 
 0
 0INPUT... writens crosssec
@@ -1842,7 +1842,7 @@
 0INPUT... $------------------------------------------------
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          26 May 15  234600.275
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  000140.550
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -2034,22 +2034,22 @@
 087Kr(d,p)88Kr(0+ 5.00)                       ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.132 SEC
- INTERPOLATING H'S                  0.004 SEC
+ IN PHI & A12 LOOP                  0.125 SEC
+ INTERPOLATING H'S                  0.007 SEC
  COMPUTING SCATTERING WAVES         0.001 SEC
- INTERPOLATING SCATTERING WAVES     0.002 SEC
- REST OF RI & RO LOOP               0.008 SEC
- REST OF LO LOOP                    0.003 SEC
+ INTERPOLATING SCATTERING WAVES     0.007 SEC
+ REST OF RI & RO LOOP               0.011 SEC
+ REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.150 SEC
+ TOTAL TIME                         0.151 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
     34209000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.004 MICROSECONDS
-    11466000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.012 MICROSECONDS
+    11466000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.011 MICROSECONDS
      1638000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
       112500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.036 MICROSECONDS
+      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.062 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -3653,7 +3653,7 @@
 0INPUT... $------------------------------------------------
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          26 May 15  234600.462
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  000140.741
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -3846,15 +3846,15 @@
           COMPUTATION OF TRANSFER S-MATRIX ELEMENTS                                           WHEELS WITHIN WHEELS
 087Kr(d,p)88Kr(0+ 7.053)                      ELAB =  12.08 MEV                                                                      
 
-0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.130 SEC
- INTERPOLATING H'S                  0.008 SEC
+0TIME IN A12                        0.001 SEC
+ IN PHI & A12 LOOP                  0.128 SEC
+ INTERPOLATING H'S                  0.007 SEC
  COMPUTING SCATTERING WAVES         0.000 SEC
- INTERPOLATING SCATTERING WAVES     0.003 SEC
+ INTERPOLATING SCATTERING WAVES     0.005 SEC
  REST OF RI & RO LOOP               0.009 SEC
- REST OF LO LOOP                    0.001 SEC
+ REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.151 SEC
+ TOTAL TIME                         0.150 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
     34209000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.004 MICROSECONDS
@@ -3862,7 +3862,7 @@
      1638000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
       112500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.071 MICROSECONDS
+      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.062 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -3984,7 +3984,7 @@
     2     3/2  5/2  4    0     3    0.349E-04    25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    2     1    0.908E-05    25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    4    25     0.00        25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
-0 TIME FOR L-INTERPOLATIONS :   0.000 SECONDS
+0 TIME FOR L-INTERPOLATIONS :   0.001 SECONDS
 
 1                                                        P T O L E M Y
                                       ELASTIC PARTIAL WAVE S-MATRIX ELEMENTS AND UNITARITY
@@ -5450,10 +5450,10 @@
 0
 0CPU TIMES FOR CROSS SECTIONS (SECONDS):
 0PRINTING PHASE SHIFTS            0.001
- ELASTIC CROSS SECTIONS           0.004
- BETA'S (SUM ON LI)               0.000
- REACTION CROSS SECTIONS          0.012          (   0.57 MFLOPS = 47.471 MFLOP/SEC )
- REACTION ANALYZING POWERS        0.001
+ ELASTIC CROSS SECTIONS           0.003
+ BETA'S (SUM ON LI)               0.001
+ REACTION CROSS SECTIONS          0.011          (   0.57 MFLOPS = 51.792 MFLOP/SEC )
+ REACTION ANALYZING POWERS        0.002
  ELASTIC ANALYZING POWERS         0.001
  ALL OTHER TIME                   0.000
  TOTAL TIME                              0.019
@@ -5464,161 +5464,114 @@
 0INPUT... $------------------------------------------------
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          26 May 15  234600.654
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  000140.932
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
 
 0INPUT... r0target
-0INPUT... $JBIGA=9/2 parbiga=+1 $ground state is 5/2+
-0**** MISSPELLED KEYWORD: GROUND  
+0INPUT... $The ground state of 87Kr is 5/2+
+0INPUT... $JBIGA=9/2 parbiga=+1
+0INPUT... REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=4
+0INPUT... PARAMETERSET alpha2
+0INPUT... PROJECTILE
+0INPUT... R=1 A=0.5 WAVEFUNCTION=REID L=0
+ LINKULE REID     IS LINKULE NUMBER/location       7
+0INPUT... Rc=1.2
+0INPUT... ;
 
- DATA ENTERING KEYWORDS ARE:
+0        PROJECTILE BOUND STATE PARAMETERS
+0E =   -2.2246 MEV     KAPPA = 0.23161
+ PROJECTILE MASS =   1.00 AMU     TARGET MASS =   1.00 AMU     REDUCED MASS =    469.46 MEV/C**2
+ L =  0        0 NODES
+ PROJECTILE SPIN =  1/2     TARGET SPIN =  1/2
+ J PROJECTILE =  1/2
+ TOTAL J =  2/2
+ PROJECTILE PARITY IS +1        TARGET PARITY IS +1        TOTAL PARITY IS +1     
+ Z PROJECTILE =   0     Z TARGET =   1
+0POTENTIAL         COUPLING CONS.    RADIUS    DIFFUSENESS    RADIUS PARAM.
+ REAL CENTRAL          1.0000        1.0000      0.5000            1.0000        POWER =   1.0000    
+0ASYMPTOPIA =   25.000 FM
+ STEP SIZE =     0.025 FM       20.000 STEPS PER "ASYMPTOTIC RANGE"
 
-    A           FITMODE     MAPDIF      PARA        RC0P        STEP1I  
-    ACCURACY    FITMULTI    MAPPHI      PARAM1      RC0T        STEP1R  
-    AE          FITRATIO    MAPSUM      PARAM10     RCP         STEPSIZE
-    AESQ        GAMMADIF    MAXCOULI    PARAM11     RCT         STEPSPER
-    AI          GAMMAPHI    MAXFUNCT    PARAM12     REALPOWE    SUMMAX  
-    AIE         GAMMASUM    MAXITER     PARAM13     REINITIA    SUMMID  
-    AIESQ       IMAGPOWE    MAXLEXTR    PARAM14     RI          SUMMIN  
-    ANGLEMAX    INELASAC    MB          PARAM15     RI0         SUMPOINT
-    ANGLEMIN    IPARAM1     MBIGA       PARAM16     RI0E        TAU     
-    ANGLESTE    IPARAM2     MBIGB       PARAM17     RI0ESQ      TAUI    
-    ASI         IPARAM3     MIDMULT     PARAM18     RSI         V       
-    ASO         IPARAM4     MP          PARAM19     RSI0        VE      
-    ASOI        IPARAM5     MT          PARAM2      RSO         VESQ    
-    ASYMPTOP    J           MX          PARAM20     RSO0        VI      
-    ATL         JA          MXCA        PARAM3      RSOI        VIE     
-    ATLI        JB          MXCB        PARAM4      RSOI0       VIESQ   
-    ATPR        JBIGA       MXCBIGA     PARAM5      RTL         VPOLYORD
-    ATPRI       JBIGB       MXCBIGB     PARAM6      RTL0        VSI     
-    ATR         JP          MXCGA       PARAM7      RTLI        VSO     
-    ATRI        JPARAM1     MXCGB       PARAM8      RTLI0       VSOI    
-    BLOCKSIZ    JPARAM2     MXCGBIGA    PARAM9      RTPR        VTL     
-    BOUNDASY    JPARAM3     MXCGBIGB    PARB        RTPR0       VTLI    
-    COULOMBM    JX          MXCGP       PARBIGA     RTPRI       VTPR    
-    DELTAVK     L           MXCGT       PARBIGB     RTPRI0      VTPRI   
-    DERIVSTE    LBACK       MXCGX       PARITY      RTR         VTR     
-    DWCUTOFF    LEPSBACK    MXCX        PARP        RTR0        VTRI    
-    E           LMAX        NAITKEN     PART        RTRI        WRITESTE
-    E*A         LMAXADD     NBACK       PARX        RTRI0       ZA      
-    E*B         LMAXMULT    NCOSINE     PHIMID      SCATASYM    ZB      
-    E*BIGA      LMIN        NFIRSTOF    PRINT       SIZE        ZBIGA   
-    E*BIGB      LMINMULT    NODES       Q           SP          ZBIGB   
-    E*P         LMINSUB     NPCOULOM    R           SPAM        ZP      
-    E*T         LOOKSTEP    NPDIF       R0          SPAMP       ZT      
-    E*X         LSTEP       NPHIADD     R0E         SPAMT       ZX      
-    ECM         LX          NPPHI       R0ESQ       SPFACP              
-    ELAB        M           NPSUM       RC          SPFACT              
-    FITACCUR    MA          NUMRANDO    RC0         ST                  
+0 THE BOUND WAVEFUNCTION WAS COMPUTED BY THE REID     LINKULE:
+          REID SOFT-CORE DEUTERON WAVE FUNCTION
+          S-STATE PROBABILITY = 0.9353
+          D0 = -125.19 MEV FM**(3/2) = 1.2512*D00
+          SPECTROSCOPIC AMPLITUDE ("SPAM") = 0.96711
+          ASYMPTOTIC NORMALIZATION = 0.87758FM**(-1/2)
+          REFERENCE:  R. V. REID, ANNALS OF PHYSICS 50 (1968) 411-448
 
- THE FOLLOWING KEYWORDS MAY BE USED TO SELECT OPTIONS:
+0INPUT... TARGET
+0INPUT... NODES=1
+0INPUT... R0=1.25 A=.63 L=4
+0INPUT... VSO=7 RSO0=1.10 ASO=.5
+0INPUT... ;
+0**** ERROR: L, SP AND JP DO NOT FORM A TRIANGLE OR THEY ARE MIXED INTEGER AND HALF-INTEGER:     4    1/2    5/2
+0**** ERROR DETECTED IN PREVIOUS STEP.
 
-    ABSOLUTE    BATCH       BFACTORS    BLOCKREL    BOUNDSTA    CCINELAS
-    CHECKASY    CHECKDER    CMANGLES    COMPLEXW    COUPLE2     CROSSSEC
-    DAVIDON     DERIVCHE    DOASYMPT    DOTEMP1     DOTEMP2     DOTEMP3 
-    DWBA        ECHO        EINVERSE    ELASTIC     EPOWER      EPOWERS 
-    FITE        FITELAST    FITTER10    FITTER11    FITTER12    FITTER13
-    FITV        FITZGERA    FLOATNUM    FORMASIS    FORMDERI    GALILEO 
-    GRIDSETU    INCOMING    INELASTI    INTEGERM    INTERACT    LABANGLE
-    LEXTRAP5    LEXTRAP6    LINEAR      LINTERPO    LMCHOL      LMGENV  
-    LPOWER      LPOWER2     ME1STORD    ME2NDORD    MINIM       MULTIPAS
-    NEXTPASS    NOBFACTO    NOCHECKA    NOECHO      NOELASTI    NOSAVEF 
-    NOSAVEMX    NOSAVESI    NOSCRFIL    NOSUBBOR    NOWRITEW    NUCONLY 
-    NZRDWBA     OCOPTR      ONEPASS     OUTGOING    POTNONRE    POTRELAT
-    POWELL65    PROJECTI    QUADRATI    QUAVER      R0DEFAUL    R0MTOT  
-    R0SUM       R0TARGET    RADIALIN    REALWAVE    RELATIVE    ROCORD  
-    SAVEF       SAVEMXCR    SAVEPITE    SAVESITE    SAVESPIT    SCATTERI
-    SCRFILE     SKIPASYM    SUBBORN     SW1OFF      SW1ON       SW2OFF  
-    SW2ON       SW3OFF      SW3ON       TARGET      TRUEMASS    USECORE 
-    USECOULO    USEPROJE    USESIMPC    USETARGE    WKBEXTRA    WOODSSAX
-    WRITEELA    WRITEITE    WRITEWAV    WRTELAIT
 
- THE FOLLOWING ARE COMMAND KEYWORDS:
+ DATA ENTERING KEYWORDS AND THEIR VALUES ARE:
 
-    ALLOCATE    BELX        BETA        BETACOUL    BETAP       BETAT   
-    BIMULT      CALLTSO     CCDUMP      CHANNEL     CHANNELS    CLEAR   
-    COPY        COULOMBP    COUPLING    DATA        DUMP        DUMPALL 
-    DUMPHEX     DUMPI2      DUMPI4      DUMPR4      DUMPR8      FIT     
-    FREE        GET         HEADER      IMAGPOTE    IMAGSOPO    IMAGTLPO
-    IMAGTPRP    IMAGTRPO    KEEP        KEYWORDS    LISTKEYS    NEWPAGE 
-    NRNLIMS     NSCATALO    NSSTATUS    NUMRNUM     PARAMETE    PRINTFIT
-    PRINTWAV    REACTION    REALPOTE    REALSOPO    REALTLPO    REALTPRP
-    REALTRPO    RENAME      RESET       RETURN      SAVEHS      SIPOTENT
-    TIMELIMI    TRANSIST    UNDEFINE    USEHS       WAVEFUNC    WRITENS 
-    WRITENS4    WRITENS8
+ A         NOT DEJP                NOT DENUMRANDO                RTL0      NOT DEACCURACY          0.1000JPARAM1   NOT DE
+ PARA            RTLI              NOT DEAE                      JPARAM2   NOT DEPARAM1            NOT DERTLI0     NOT DE
+ AESQ            JPARAM3           NOT DEPARAM10   NOT DE        RTPR      NOT DEAI                NOT DEJX             1
+ PARAM11   NOT DERTPR0             NOT DEAIE                     L         NOT DEPARAM12           NOT DERTPRI     NOT DE
+ AIESQ           LBACK             NOT DEPARAM13   NOT DE        RTPRI0    NOT DEANGLEMAX               9LEPSBACK        
+ PARAM14   NOT DERTR               NOT DEANGLEMIN                LMAX      NOT DEPARAM15           NOT DERTR0      NOT DE
+ ANGLESTE        LMAXADD                 PARAM16   NOT DE        RTRI      NOT DEASI               NOT DELMAXMULT   1.700
+ PARAM17   NOT DERTRI0             NOT DEASO       NOT DE        LMIN      NOT DEPARAM18           NOT DESCATASYM      -2
+ ASOI      NOT DELMINMULT          0.5000PARAM19   NOT DE        SIZE        2000ASYMPTOP          NOT DELMINSUB         
+ PARAM2    NOT DESP                NOT DEATL       NOT DE        LOOKSTEP       2PARAM20           NOT DESPAM      NOT DE
+ ATLI      NOT DELSTEP                   PARAM3    NOT DE        SPAMP     0.9671ATPR              NOT DELX        NOT DE
+ PARAM4    NOT DESPAMT                   ATPRI     NOT DE        M         NOT DEPARAM5            NOT DESPFACP          
+ ATR       NOT DEMA                      PARAM6    NOT DE        SPFACT          ATRI              NOT DEMAPDIF          
+ PARAM7    NOT DEST                NOT DEBLOCKSIZ      56        MAPPHI          PARAM8            NOT DESTEP1I          
+ BOUNDASY       2MAPSUM                  PARAM9    NOT DE        STEP1R          COULOMBM                MAXCOULI        
+ PARB            STEPSIZE          0.0250DELTAVK   0.0500        MAXFUNCT        PARBIGA                 STEPSPER       2
+ DERIVSTE  0.1000MAXITER                 PARBIGB                 SUMMAX    NOT DEDWCUTOFF          0.1000MAXLEXTR       1
+ PARITY          SUMMID            NOT DEE         NOT DE        MB              PARP                    SUMMIN    NOT DE
+ E*A             MBIGA                  8PART                    SUMPOINT        E*B                     MBIGB          8
+ PARX            TAU                     E*BIGA                  MIDMULT         PHIMID            0.5000TAUI            
+ E*BIGB     7.053MP                NOT DEPRINT        100        V               E*P               NOT DEMT        NOT DE
+ Q         NOT DEVE                      E*T       NOT DE        MX              R                 NOT DEVESQ            
+ E*X             MXCA              13.135R0        NOT DE        VI              ECM               NOT DEMXCB       7.288
+ R0E             VIE                     ELAB      12.084        MXCBIGA  -80.709R0ESQ                   VIESQ           
+ FITACCUR  0.1000MXCBIGB          -72.639RC        NOT DE        VPOLYORD        FITMODE                 MXCGA     13.135
+ RC0       NOT DEVSI                     FITMULTI      50        MXCGB      7.288RC0P              NOT DEVSO             
+ FITRATIO  0.1000MXCGBIGA         -80.709RC0T      NOT DE        VSOI            GAMMADIF                MXCGBIGB -79.692
+ RCP       NOT DEVTL                     GAMMAPHI  0.1000        MXCGP     NOT DERCT               NOT DEVTLI            
+ GAMMASUM        MXCGT             NOT DEREALPOWE                VTPR            IMAGPOWE                MXCGX      8.071
+ REINITIA        VTPRI                   INELASAC  0.1000        MXCX       8.071RI                NOT DEVTR             
+ IPARAM1   NOT DENAITKEN                 RI0       NOT DE        VTRI            IPARAM2           NOT DENBACK           
+ RI0E            WRITESTE          NOT DEIPARAM3   NOT DE        NCOSINE        2RI0ESQ                  ZA              
+ IPARAM4   NOT DENFIRSTOF                RSI       NOT DE        ZB              IPARAM5           NOT DENODES     NOT DE
+ RSI0      NOT DEZBIGA                   J         NOT DE        NPCOULOM        RSO               NOT DEZBIGB           
+ JA              NPDIF                   RSO0      NOT DE        ZP        NOT DEJB                     1NPHIADD         
+ RSOI      NOT DEZT                NOT DEJBIGA          5        NPPHI           RSOI0             NOT DEZX              
+ JBIGB           NPSUM                   RTL       NOT DE                        
 
- THE FOLLOWING ARE SYNONUMS FOR STANDARD PTOLEMY KEYWORDS
+ THE FOLLOWING OPTIONS HAVE BEEN CHOSEN:
 
- SYNONUM   KEYWORD      SYNONUM   KEYWORD      SYNONUM   KEYWORD
-
- ANPASSEN  FIT          KANAL     CHANNEL      REELLEWE  REALWAVE
- AR        A            KERNEINZ  NUCONLY      RR        R       
- AUSGANG   OUTGOING     KNOTEN    NODES        RR0       R0      
- BE        BELX         LABWINKE  LABANGLE     SCHLUESS  KEYWORDS
- BE2       BELX         LMAXHINZ  LMAXADD      SCHREIBS  WRITESTE
- BESTIMMU  DATA         LMAXVERM  LMAXMULT     SCHRITTE  STEPSPER
- BETANUCL  BETA         LMINABZI  LMINSUB      SCHRITTL  STEPSIZE
- BETAPROJ  BETAP        LMINSUBT  LMINSUB      STEUASYM  SCATASYM
- BETATARG  BETAT        LMINVERM  LMINMULT     STOP      RETURN  
- DRUCKEN   PRINT        LSCHRITT  LSTEP        STREUUNG  SCATTERI
- DUMP4     DUMPR4       MAXITERA  MAXITER      SUMMEPUN  SUMPOINT
- DUMP8     DUMPR8       MITCOULO  USECOULO     TITLE     HEADER  
- DUMPHEXA  DUMPHEX      MITKERNG  USECORE      TRANSITI  TRANSIST
- DUMPINTE  DUMPI4       MITPROJE  USEPROJE     TSO       INTERACT
- DUMPOCTA  DUMPHEX      MITWURFG  USEPROJE     UEBERSCH  HEADER  
- DWENDPUN  DWCUTOFF     MITZIELS  USETARGE     VERLASSE  QUIT    
- EINGANG   INCOMING     NAMEN     NSCATALO     VR        V       
- EINLAGER  SAVEHS       NAMES     NSCATALO     W         VI      
- ELASTISC  ELASTIC      NSDUMP    DUMPR8       WINKELMA  ANGLEMAX
- END       RETURN       PASSENGE  FITACCUR     WINKELMI  ANGLEMIN
- ENDE      QUIT         PASSENVE  FITRATIO     WINKELSC  ANGLESTE
- GEBRAUCH  USEHS        PROJEKTI  PROJECTI     WURFGESC  PROJECTI
- GEBUNDAS  BOUNDASY     QUIT      RETURN       ZIELSCHE  TARGET  
- GENAUIGK  ACCURACY     REAKTION  REACTION     ZUTEILEN  ALLOCATE
- IMAGHOCH  IMAGPOWE     REELLEHO  REALPOWE                       
-
- THE FOLLOWING ARE SYNONUMS FOR STANDARD PTOLEMY KEYWORDS
-
- SYNONUM   KEYWORD      SYNONUM   KEYWORD      SYNONUM   KEYWORD
-
- AR        A            TITLE     HEADER       RR0       R0      
- GENAUIGK  ACCURACY     UEBERSCH  HEADER       REAKTION  REACTION
- ZUTEILEN  ALLOCATE     IMAGHOCH  IMAGPOWE     REELLEHO  REALPOWE
- WINKELMA  ANGLEMAX     EINGANG   INCOMING     REELLEWE  REALWAVE
- WINKELMI  ANGLEMIN     TSO       INTERACT     END       RETURN  
- WINKELSC  ANGLESTE     SCHLUESS  KEYWORDS     QUIT      RETURN  
- BE2       BELX         LABWINKE  LABANGLE     STOP      RETURN  
- BE        BELX         LMAXHINZ  LMAXADD      EINLAGER  SAVEHS  
- BETANUCL  BETA         LMAXVERM  LMAXMULT     STEUASYM  SCATASYM
- BETAPROJ  BETAP        LMINVERM  LMINMULT     STREUUNG  SCATTERI
- BETATARG  BETAT        LMINSUBT  LMINSUB      SCHRITTL  STEPSIZE
- GEBUNDAS  BOUNDASY     LMINABZI  LMINSUB      SCHRITTE  STEPSPER
- KANAL     CHANNEL      LSCHRITT  LSTEP        SUMMEPUN  SUMPOINT
- BESTIMMU  DATA         MAXITERA  MAXITER      ZIELSCHE  TARGET  
- DUMPOCTA  DUMPHEX      KNOTEN    NODES        TRANSITI  TRANSIST
- DUMPHEXA  DUMPHEX      NAMES     NSCATALO     MITKERNG  USECORE 
- DUMPINTE  DUMPI4       NAMEN     NSCATALO     MITCOULO  USECOULO
- DUMP4     DUMPR4       KERNEINZ  NUCONLY      GEBRAUCH  USEHS   
- DUMP8     DUMPR8       AUSGANG   OUTGOING     MITWURFG  USEPROJE
- NSDUMP    DUMPR8       DRUCKEN   PRINT        MITPROJE  USEPROJE
- DWENDPUN  DWCUTOFF     WURFGESC  PROJECTI     MITZIELS  USETARGE
- ELASTISC  ELASTIC      PROJEKTI  PROJECTI     VR        V       
- ANPASSEN  FIT          VERLASSE  QUIT         W         VI      
- PASSENGE  FITACCUR     ENDE      QUIT         SCHREIBS  WRITESTE
- PASSENVE  FITRATIO     RR        R                              
+    BATCH       BFACTORS    BLOCKREL    CMANGLES    COMPLEXW    DOASYMPT
+    ECHO        EPOWER      EPOWERS     FITV        FORMDERI    GALILEO 
+    LMCHOL      ME1STORD    NOCHECKA    NOELASTI    NOSAVEF     NOSAVEMX
+    NOSAVESI    NOSCRFIL    NOWRITEW    ONEPASS     POTNONRE    QUADRATI
+    R0TARGET    SUBBORN     SW1OFF      SW2OFF      SW3OFF      TARGET  
+    TRUEMASS    USECORE     USEPROJE    WOODSSAX
              ---- NUMBERED STORAGE CATALOG ----
 0  NUMBER   NAME     LENGTH      START        END
+        3  VBOUND1     1001        2008       3010
+        5  PHI1        1001        4012       5014
 0               ALLOCATOR STATISTICS
                                         WORDS   KILOBYTES
  ALLOCATOR SIZE:                      6249990   48828.0
- CURRENT UNCOMPRESSED SIZE:                 0       0.0
- CURRENT COMPRESSED SIZE:                   0       0.0
+ CURRENT UNCOMPRESSED SIZE:              6012      47.0
+ CURRENT COMPRESSED SIZE:                2004      15.7
  PEAK COMPRESSED SIZE:                  67213     525.1
 0NAME STACK SIZE:                         500
- CURRENT HIGHEST NAME:                      0
- CURRENT NAMES IN USE:                      0
+ CURRENT HIGHEST NAME:                      6
+ CURRENT NAMES IN USE:                      2
  PEAK NAMES IN USE:                        70
  NUMBER OF ALLOCATOR COMPRESSES:            0
 
