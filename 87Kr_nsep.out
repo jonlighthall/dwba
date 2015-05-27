@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112515.832
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112646.972
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112515.834
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112646.973
 
 0INPUT... print 0
 0INPUT... $------------------------------------------------
@@ -82,15 +82,15 @@
           COMPUTATION OF TRANSFER S-MATRIX ELEMENTS                                           WHEELS WITHIN WHEELS
 087Kr(d,p)88Kr(0+ 7.053)                      ELAB =  12.08 MEV                                                                      
 
-0TIME IN A12                        0.001 SEC
- IN PHI & A12 LOOP                  0.149 SEC
- INTERPOLATING H'S                  0.007 SEC
- COMPUTING SCATTERING WAVES         0.004 SEC
- INTERPOLATING SCATTERING WAVES     0.005 SEC
- REST OF RI & RO LOOP               0.014 SEC
- REST OF LO LOOP                    0.001 SEC
+0TIME IN A12                        0.000 SEC
+ IN PHI & A12 LOOP                  0.152 SEC
+ INTERPOLATING H'S                  0.014 SEC
+ COMPUTING SCATTERING WAVES         0.001 SEC
+ INTERPOLATING SCATTERING WAVES     0.008 SEC
+ REST OF RI & RO LOOP               0.007 SEC
+ REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.181 SEC
+ TOTAL TIME                         0.182 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
     34209000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.004 MICROSECONDS
@@ -98,7 +98,7 @@
      1638000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
       112500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.062 MICROSECONDS
+      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.124 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -220,7 +220,7 @@
     2     3/2  5/2  4    0     3    0.349E-04    25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    2     1    0.908E-05    25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    4    25     0.00        25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
-0 TIME FOR L-INTERPOLATIONS :   0.001 SECONDS
+0 TIME FOR L-INTERPOLATIONS :   0.000 SECONDS
 
 1                                                      P T O L E M Y
           COMPUTATION OF CROSS SECTIONS                                      SOPHISTICATED PROGRAMS CONTAIN SUBTLE ERRORS
@@ -1433,18 +1433,18 @@
 0PRINTING PHASE SHIFTS            0.000
  ELASTIC CROSS SECTIONS           0.004
  BETA'S (SUM ON LI)               0.000
- REACTION CROSS SECTIONS          0.011          (   0.57 MFLOPS = 51.787 MFLOP/SEC )
- REACTION ANALYZING POWERS        0.002
- ELASTIC ANALYZING POWERS         0.001
+ REACTION CROSS SECTIONS          0.012          (   0.57 MFLOPS = 47.475 MFLOP/SEC )
+ REACTION ANALYZING POWERS        0.001
+ ELASTIC ANALYZING POWERS         0.002
  ALL OTHER TIME                   0.000
- TOTAL TIME                              0.018
+ TOTAL TIME                              0.019
 
 0
 0INPUT... writens crosssec
  NUMBERED STORAGE OBJECT 132 with    181 elements WRITTEN TO FT15 WITH 5G14.5 FORMAT
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112516.067
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112647.209
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -1524,22 +1524,22 @@
 087Kr(d,p)88Kr(2+ 7.053)                      ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.043 SEC
- INTERPOLATING H'S                  0.002 SEC
- COMPUTING SCATTERING WAVES         0.002 SEC
- INTERPOLATING SCATTERING WAVES     0.007 SEC
- REST OF RI & RO LOOP               0.001 SEC
+ IN PHI & A12 LOOP                  0.045 SEC
+ INTERPOLATING H'S                  0.001 SEC
+ COMPUTING SCATTERING WAVES         0.001 SEC
+ INTERPOLATING SCATTERING WAVES     0.004 SEC
+ REST OF RI & RO LOOP               0.004 SEC
  REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
  TOTAL TIME                         0.055 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
-     3822000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.011 MICROSECONDS
-     3822000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.011 MICROSECONDS
+     3822000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.012 MICROSECONDS
+     3822000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.012 MICROSECONDS
       546000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
        39000 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-       39000 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.051 MICROSECONDS
+       39000 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.026 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -2569,7 +2569,7 @@
  NUMBERED STORAGE OBJECT 122 with    181 elements WRITTEN TO FT15 WITH 5G14.5 FORMAT
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112516.154
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  112647.296
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -2583,7 +2583,6 @@
 0INPUT... $E*BIGA=1.47613 JBIGA=3/2 $parbiga=+1
 0INPUT... JBIGA=5/2 parbiga=+1
 0INPUT... REACTION: 87Kr(d,p)88Kr(1- 7.053) ELAB=12.08460998 $for S(n) energy
-0INPUT... JP=1
 0INPUT... PARAMETERSET alpha2
 0INPUT... PROJECTILE
 0INPUT... $ASYMPTOPIA=6.42
@@ -2594,11 +2593,10 @@
 0INPUT... TARGET
 0INPUT... $ASYMPTOPIA=25.28
 0INPUT... NODES=1
-0INPUT... R0=1.25 A=.63 L=1
+0INPUT... R0=1.25 A=.63 L=1 JP=1
 0INPUT... VSO=7 RSO0=1.10 ASO=.5
 0INPUT... ;
-0**** JP MUST BE DEFINED FOR SPIN ORBIT FORCE.
-0**** ERROR: L, SP AND JP DO NOT FORM A TRIANGLE OR THEY ARE MIXED INTEGER AND HALF-INTEGER:     1    1/2*****/2
+0**** ERROR: L, SP AND JP DO NOT FORM A TRIANGLE OR THEY ARE MIXED INTEGER AND HALF-INTEGER:     1    1/2    2/2
 0**** ERROR DETECTED IN PREVIOUS STEP.
 
 
