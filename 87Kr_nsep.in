@@ -1,7 +1,7 @@
 reset
 print 0
 $------------------------------------------------
-$for S(n) energy and l_n=2
+$ground state transition to S(n) energy and l_n=2
 $ground state is 5/2+
 r0target
 JBIGA=5/2 parbiga=+1 
@@ -32,6 +32,190 @@ ASI = 0.805725
 VSO=3.557000
 RSO0=0.972000
 ASO=1.011000
+;
+OUTGOING
+$Charge Radius
+RC0 = 1.240693
+$Real Volume Terms
+V = 58.444603
+R0 = 1.212757
+A = 0.664714
+$Imaginary Volume Terms
+VI = 0.637595
+RI0 = 1.212757
+AI = 0.664714
+$Imaginary Surface Terms
+VSI = 13.145884
+RSI0 = 1.271900
+ASI= 0.564504
+$Real Spin-Orbit Terms
+VSO = 5.786857
+RSO0 = 1.039940
+ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+VSOI = -0.033308
+RSOI0 = 1.039940
+ASOI = 0.590000
+;
+ANGLEMAX=180 anglestep = 1
+;
+writens crosssec
+reset
+print 0
+$------------------------------------------------
+$for S(n) energy and ln=0
+$The first excited state of 87Kr is 1/2+ at 532.01 keV
+r0target
+$E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(2+ 7.053) ELAB=12.08460998 
+PARAMETERSET alpha2
+PROJECTILE
+$ASYMPTOPIA 6.97
+R=1 A=0.5 WAVEFUNCTION=REID L=0 
+Rc=1.2
+;
+TARGET
+$ASYMPTOPIA 25.48
+NODES=1
+R0=1.25 A=.63 L=0
+VSO=7 RSO0=1.10 ASO=.5
+;
+INCOMING
+RC0=1.303
+V=94.073795
+R0=1.150249
+A=0.774831
+VI=1.855663
+RI0=1.327500
+AI=0.411895
+VSI = 10.460211
+RSI0 = 1.368303 
+ASI = 0.805725 
+VSO=3.557000
+RSO0=0.972000
+ASO=1.011000
+;
+OUTGOING
+$Charge Radius
+RC0 = 1.240693
+$Real Volume Terms
+V = 58.444603
+R0 = 1.212757
+A = 0.664714
+$Imaginary Volume Terms
+VI = 0.637595
+RI0 = 1.212757
+AI = 0.664714
+$Imaginary Surface Terms
+VSI = 13.145884
+RSI0 = 1.271900
+ASI= 0.564504
+$Real Spin-Orbit Terms
+VSO = 5.786857
+RSO0 = 1.039940
+ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+VSOI = -0.033308
+RSOI0 = 1.039940
+ASOI = 0.590000
+;
+ANGLEMAX=180 anglestep = 1
+;
+writens crosssec
+reset
+print 0
+$------------------------------------------------
+$  l_n=1 from gs to l=1+
+r0target
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(1- 7.053) ELAB=12.08460998 $for S(n) energy
+PARAMETERSET alpha2
+PROJECTILE
+$ASYMPTOPIA=6.42
+R=1 A=0.5 WAVEFUNCTION=REID L=0 
+Rc=1.2
+;
+TARGET
+$ASYMPTOPIA=25.28
+NODES=1
+R0=1.25 A=.63 L=1 jp=3/2
+VSO=7 RSO0=1.10 ASO=.5
+;
+INCOMING
+RC0=1.303
+V=94.073795
+R0=1.150249
+A=0.774831
+VI=1.855663
+RI0=1.327500
+AI=0.411895
+VSI = 10.460211
+RSI0 = 1.368303 
+ASI = 0.805725 
+VSO=3.557000
+RSO0=0.972000
+ASO=1.011000
+;
+OUTGOING
+$Charge Radius
+RC0 = 1.240693
+$Real Volume Terms
+V = 58.444603
+R0 = 1.212757
+A = 0.664714
+$Imaginary Volume Terms
+VI = 0.637595
+RI0 = 1.212757
+AI = 0.664714
+$Imaginary Surface Terms
+VSI = 13.145884
+RSI0 = 1.271900
+ASI= 0.564504
+$Real Spin-Orbit Terms
+VSO = 5.786857
+RSO0 = 1.039940
+ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+VSOI = -0.033308
+RSOI0 = 1.039940
+ASOI = 0.590000
+;
+ANGLEMAX=180 anglestep = 1
+;
+writens crosssec
+reset
+print 0
+$------------------------------------------------
+$for S(n) energy and l_n=2 using OMP from literature
+$ground state is 5/2+
+r0target
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
+PARAMETERSET alpha2
+PROJECTILE
+$ASYMPTOPIA 6.85
+R=1 A=0.5 WAVEFUNCTION=REID L=0 
+Rc=1.2
+;
+TARGET
+$ASYMPTOPIA 25.52
+NODES=1
+R0=1.25 A=.63 L=2
+VSO=7 RSO0=1.10 ASO=.5
+;
+INCOMING $deuteron
+RC0=1.30
+V=91.37
+R0=1.17
+A=0.74
+VI=12.264
+RI0=1.325
+AI=0.809
+VSI = 10.460211
+VSO=6.808
+RSO0=1.07
+ASO=0.66
 ;
 OUTGOING
 $Charge Radius
