@@ -159,7 +159,7 @@ $------------------------------------------------
 $for S(n) energy and l_n=2
 $ground state is 5/2+
 r0target
-JBIGA=5/2 parbiga=+1 
+$JBIGA=5/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
