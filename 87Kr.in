@@ -1,7 +1,10 @@
 reset
+$------------------------------------------------
+$ground state transition
+$ground state is of 87Kr is 5/2+
 r0target
-JBIGA=5/2 parbiga=+1 $ground state is 5/2+
-REACTION: 87Kr(d,p)88Kr(0+ 0.00) ELAB=12.08460998 $ground state transition
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 0.00) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
 ASYMPTOPIA 7.08
@@ -9,7 +12,7 @@ R=1 A=0.5 WAVEFUNCTION=REID L=0
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.19
+ASYMPTOPIA 25.25
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -90,19 +93,21 @@ ASOI = 0.590000
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
-$------------------------------------------------
 reset
+$------------------------------------------------
+$5MeV with updated outgoing
+$ground state is 5/2+
 r0target
-JBIGA=5/2 parbiga=+1 $ground state is 5/2+
-REACTION: 87Kr(d,p)88Kr(0+ 5.00) ELAB=12.08460998 $updated outgoing
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 5.00) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-$ASYMPTOPIA 6.22
+ASYMPTOPIA 6.22
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-$ASYMPTOPIA 25.12
+ASYMPTOPIA 25.12
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -149,19 +154,21 @@ ASOI = 0.590000
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
-$------------------------------------------------
 reset
+$------------------------------------------------
+$for S(n) energy
+$ground state is 5/2+
 r0target
-JBIGA=5/2 parbiga=+1 $ground state is 5/2+
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-$ASYMPTOPIA 6.96
+ASYMPTOPIA 6.96
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-$ASYMPTOPIA 25.17
+ASYMPTOPIA 25.18
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -208,21 +215,23 @@ ASOI = 0.590000
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
+reset
 $------------------------------------------------
 $l_n=4
-reset
-r0target
 $The ground state of 87Kr is 5/2+
-$The lowest suspected state with 9/2 is at 2.25810
-$0**** L AND PARITIES ARE INCOMPATABLE:    4    1    1   -1
+$The lowest suspected state with 9/2 is at 2.25810 with 9/2-
+$parity set to +1
+r0target
 E*BIGA=2.25810 JBIGA=9/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy 
 PARAMETERSET alpha2
 PROJECTILE
+ASYMPTOPIA 6.88
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
+ASYMPTOPIA 25.12
 NODES=1
 R0=1.25 A=.63 L=4
 VSO=7 RSO0=1.10 ASO=.5
@@ -269,18 +278,21 @@ ASOI = 0.590000
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
-$------------------------------------------------
 reset
-r0target
+$------------------------------------------------
+$for S(n) energy and ln=0
 $The first excited state of 87Kr is 1/2+ at 532.01 keV
+r0target
 E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=0
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
+ASYMPTOPIA 6.97
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
+ASYMPTOPIA 25.15
 NODES=1
 R0=1.25 A=.63 L=0
 VSO=7 RSO0=1.10 ASO=.5
@@ -327,11 +339,12 @@ ASOI = 0.590000
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
-$------------------------------------------------
-$l_n=1
 reset
+$------------------------------------------------
+$  l_n=1
+$  lowest 3/2 state is at 1.47613 and is 3/2+
+$0**** L AND PARITIES ARE INCOMPATABLE:    1    1    1    1
 r0target
-$lowest 3/2 state is at 1.47613 and is 3/2+
 E*BIGA=1.47613 JBIGA=3/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
@@ -386,11 +399,11 @@ ASOI = 0.590000
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
+reset
 $------------------------------------------------
 $l_n=3
-reset
-r0target
 $lowest 7/2 state is at 2.51934 and is 7/2+
+r0target
 E*BIGA=2.51934 JBIGA=7/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
