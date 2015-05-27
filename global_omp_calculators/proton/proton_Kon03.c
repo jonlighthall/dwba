@@ -111,7 +111,7 @@ int main()
 
    //added below for PTOLEMY
    printf("*********************************\n\n");
-   printf("Here are the requested parameters:\n\n");
+   printf("Here are the requested parameters:\nFormatted for PTOLEMY\n");
    printf("$Charge Radius\n");
    printf("RC0 = %lf\n", r_c);
    printf("$Real Volume Terms\n");
