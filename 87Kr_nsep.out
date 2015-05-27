@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114159.472
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114302.641
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114159.473
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114302.642
 
 0INPUT... print 0
 0INPUT... $------------------------------------------------
@@ -83,22 +83,22 @@
 087Kr(d,p)88Kr(0+ 7.053)                      ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.160 SEC
- INTERPOLATING H'S                  0.009 SEC
- COMPUTING SCATTERING WAVES         0.001 SEC
- INTERPOLATING SCATTERING WAVES     0.004 SEC
- REST OF RI & RO LOOP               0.012 SEC
- REST OF LO LOOP                    0.002 SEC
+ IN PHI & A12 LOOP                  0.155 SEC
+ INTERPOLATING H'S                  0.010 SEC
+ COMPUTING SCATTERING WAVES         0.000 SEC
+ INTERPOLATING SCATTERING WAVES     0.007 SEC
+ REST OF RI & RO LOOP               0.009 SEC
+ REST OF LO LOOP                    0.001 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.188 SEC
+ TOTAL TIME                         0.182 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
     34209000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.005 MICROSECONDS
     11466000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.014 MICROSECONDS
      1638000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
-      112500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.002 MILLISECONDS
-      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.080 MICROSECONDS
+      112500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
+      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.089 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -220,7 +220,7 @@
     2     3/2  5/2  4    0     3    0.349E-04    25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    2     1    0.908E-05    25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
     2     3/2  5/2  4    4    25     0.00        25       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
-0 TIME FOR L-INTERPOLATIONS :   0.000 SECONDS
+0 TIME FOR L-INTERPOLATIONS :   0.001 SECONDS
 
 1                                                      P T O L E M Y
           COMPUTATION OF CROSS SECTIONS                                      SOPHISTICATED PROGRAMS CONTAIN SUBTLE ERRORS
@@ -1435,16 +1435,16 @@
  BETA'S (SUM ON LI)               0.000
  REACTION CROSS SECTIONS          0.012          (   0.57 MFLOPS = 47.475 MFLOP/SEC )
  REACTION ANALYZING POWERS        0.001
- ELASTIC ANALYZING POWERS         0.002
+ ELASTIC ANALYZING POWERS         0.001
  ALL OTHER TIME                   0.000
- TOTAL TIME                              0.019
+ TOTAL TIME                              0.018
 
 0
 0INPUT... writens crosssec
  NUMBERED STORAGE OBJECT 132 with    181 elements WRITTEN TO FT15 WITH 5G14.5 FORMAT
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114159.714
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114302.882
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -1524,22 +1524,22 @@
 087Kr(d,p)88Kr(2+ 7.053)                      ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.046 SEC
- INTERPOLATING H'S                  0.002 SEC
- COMPUTING SCATTERING WAVES         0.000 SEC
- INTERPOLATING SCATTERING WAVES     0.003 SEC
- REST OF RI & RO LOOP               0.004 SEC
- REST OF LO LOOP                    0.001 SEC
+ IN PHI & A12 LOOP                  0.040 SEC
+ INTERPOLATING H'S                  0.004 SEC
+ COMPUTING SCATTERING WAVES         0.001 SEC
+ INTERPOLATING SCATTERING WAVES     0.008 SEC
+ REST OF RI & RO LOOP               0.001 SEC
+ REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.056 SEC
+ TOTAL TIME                         0.054 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
-     3822000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.012 MICROSECONDS
-     3822000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.012 MICROSECONDS
+     3822000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.010 MICROSECONDS
+     3822000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.010 MICROSECONDS
       546000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
        39000 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-       39000 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.051 MICROSECONDS
+       39000 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.103 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -2569,7 +2569,7 @@
  NUMBERED STORAGE OBJECT 122 with    181 elements WRITTEN TO FT15 WITH 5G14.5 FORMAT
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114159.802
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  114302.973
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -2595,11 +2595,57 @@
 0INPUT... TARGET
 0INPUT... $ASYMPTOPIA=25.28
 0INPUT... NODES=1
-0INPUT... R0=1.25 A=.63 L=1 $JP=1/2
+0INPUT... R0=1.25 A=.63 L=1 JP=1/2
 0INPUT... VSO=7 RSO0=1.10 ASO=.5
 0INPUT... ;
-0**** JP MUST BE DEFINED FOR SPIN ORBIT FORCE.
-0**** ERROR: L, SP AND JP DO NOT FORM A TRIANGLE OR THEY ARE MIXED INTEGER AND HALF-INTEGER:     1    1/2*****/2
+ FOR V =   55.11,  E =   0.00, WAVEFUNCTION HAS  2 NODES BUT  1 ARE DESIRED.
+ WILL TRY A NEW V:      36.739    
+0INPUT... INCOMING
+0INPUT... RC0=1.303
+0INPUT... V=94.073795
+0INPUT... R0=1.150249
+0INPUT... A=0.774831
+0INPUT... VI=1.855663
+0INPUT... RI0=1.327500
+0INPUT... AI=0.411895
+0INPUT... VSI = 10.460211
+0INPUT... RSI0 = 1.368303
+0INPUT... ASI = 0.805725
+0INPUT... $VSO=3.557000
+0INPUT... $RSO0=0.972000
+0INPUT... $ASO=1.011000
+0INPUT... ;
+0INPUT... OUTGOING
+0INPUT... $Charge Radius
+0INPUT... RC0 = 1.240693
+0INPUT... $Real Volume Terms
+0INPUT... V = 58.444603
+0INPUT... R0 = 1.212757
+0INPUT... A = 0.664714
+0INPUT... $Imaginary Volume Terms
+0INPUT... VI = 0.637595
+0INPUT... RI0 = 1.212757
+0INPUT... AI = 0.664714
+0INPUT... $Imaginary Surface Terms
+0INPUT... VSI = 13.145884
+0INPUT... RSI0 = 1.271900
+0INPUT... ASI= 0.564504
+0INPUT... $Real Spin-Orbit Terms
+0INPUT... VSO = 5.786857
+0INPUT... RSO0 = 1.039940
+0INPUT... ASO = 0.590000
+0INPUT... $Imaginary Spin-Orbit Terms
+0INPUT... VSOI = -0.033308
+0INPUT... RSOI0 = 1.039940
+0INPUT... ASOI = 0.590000
+0INPUT... ;
+0INPUT... ANGLEMAX=180 anglestep = 1
+0INPUT... ;
+0***** ERROR IN INPUT:
+ JA, JB, JBIGA, JBIGB =    2/2    1/2    5/2    2/2
+ RESULTS IN
+ JBPMIN, JBPMAX, JBTMIN, JBTMAX =    1/2    3/2    3/2    7/2
+ BUT  JBP, JBT =    1/2    1/2  AND ARE OUT OF BOUNDS.
 0**** ERROR DETECTED IN PREVIOUS STEP.
 
 
@@ -2609,25 +2655,25 @@
  PARA            RTLI              NOT DEAE                      JPARAM2   NOT DEPARAM1            NOT DERTLI0     NOT DE
  AESQ            JPARAM3           NOT DEPARAM10   NOT DE        RTPR      NOT DEAI                NOT DEJX             1
  PARAM11   NOT DERTPR0             NOT DEAIE                     L         NOT DEPARAM12           NOT DERTPRI     NOT DE
- AIESQ           LBACK             NOT DEPARAM13   NOT DE        RTPRI0    NOT DEANGLEMAX               9LEPSBACK        
- PARAM14   NOT DERTR               NOT DEANGLEMIN                LMAX      NOT DEPARAM15           NOT DERTR0      NOT DE
+ AIESQ           LBACK             NOT DEPARAM13   NOT DE        RTPRI0    NOT DEANGLEMAX              18LEPSBACK        
+ PARAM14   NOT DERTR               NOT DEANGLEMIN                LMAX            PARAM15           NOT DERTR0      NOT DE
  ANGLESTE        LMAXADD                 PARAM16   NOT DE        RTRI      NOT DEASI               NOT DELMAXMULT   1.700
- PARAM17   NOT DERTRI0             NOT DEASO       NOT DE        LMIN      NOT DEPARAM18           NOT DESCATASYM      -2
+ PARAM17   NOT DERTRI0             NOT DEASO       NOT DE        LMIN            PARAM18           NOT DESCATASYM      -2
  ASOI      NOT DELMINMULT          0.5000PARAM19   NOT DE        SIZE        2000ASYMPTOP          NOT DELMINSUB         
  PARAM2    NOT DESP                NOT DEATL       NOT DE        LOOKSTEP       2PARAM20           NOT DESPAM      NOT DE
- ATLI      NOT DELSTEP                   PARAM3    NOT DE        SPAMP     0.9671ATPR              NOT DELX        NOT DE
- PARAM4    NOT DESPAMT                   ATPRI     NOT DE        M         NOT DEPARAM5            NOT DESPFACP          
+ ATLI      NOT DELSTEP                   PARAM3    NOT DE        SPAMP     0.9671ATPR              NOT DELX              
+ PARAM4    NOT DESPAMT                   ATPRI     NOT DE        M         NOT DEPARAM5            NOT DESPFACP    0.9353
  ATR       NOT DEMA                      PARAM6    NOT DE        SPFACT          ATRI              NOT DEMAPDIF          
  PARAM7    NOT DEST                NOT DEBLOCKSIZ      56        MAPPHI          PARAM8            NOT DESTEP1I          
  BOUNDASY       2MAPSUM                  PARAM9    NOT DE        STEP1R          COULOMBM                MAXCOULI        
- PARB            STEPSIZE          0.0250DELTAVK   0.0500        MAXFUNCT        PARBIGA                 STEPSPER       2
+ PARB            STEPSIZE          0.0500DELTAVK   0.0500        MAXFUNCT        PARBIGA                 STEPSPER       2
  DERIVSTE  0.1000MAXITER                 PARBIGB                 SUMMAX    NOT DEDWCUTOFF          0.1000MAXLEXTR       1
  PARITY          SUMMID            NOT DEE         NOT DE        MB              PARP                    SUMMIN    NOT DE
  E*A             MBIGA                  8PART                    SUMPOINT        E*B                     MBIGB          8
  PARX            TAU                     E*BIGA                  MIDMULT         PHIMID            0.5000TAUI            
  E*BIGB     7.053MP                NOT DEPRINT                   V               E*P               NOT DEMT        NOT DE
- Q         NOT DEVE                      E*T       NOT DE        MX              R                 NOT DEVESQ            
- E*X             MXCA              13.135R0        NOT DE        VI              ECM               NOT DEMXCB       7.288
+ Q         -2.223VE                      E*T       NOT DE        MX              R                 NOT DEVESQ            
+ E*X             MXCA              13.135R0        NOT DE        VI              ECM               11.810MXCB       7.288
  R0E             VIE                     ELAB      12.084        MXCBIGA  -80.709R0ESQ                   VIESQ           
  FITACCUR  0.1000MXCBIGB          -72.639RC        NOT DE        VPOLYORD        FITMODE                 MXCGA     13.135
  RC0       NOT DEVSI                     FITMULTI      50        MXCGB      7.288RC0P              NOT DEVSO             
@@ -2646,24 +2692,37 @@
  THE FOLLOWING OPTIONS HAVE BEEN CHOSEN:
 
     BATCH       BFACTORS    BLOCKREL    CMANGLES    COMPLEXW    DOASYMPT
-    ECHO        EPOWER      EPOWERS     FITV        FORMDERI    GALILEO 
-    LMCHOL      ME1STORD    NOCHECKA    NOELASTI    NOSAVEF     NOSAVEMX
-    NOSAVESI    NOSCRFIL    NOWRITEW    ONEPASS     POTNONRE    QUADRATI
-    R0TARGET    SUBBORN     SW1OFF      SW2OFF      SW3OFF      TARGET  
-    TRUEMASS    USECORE     USEPROJE    WOODSSAX
+    DWBA        ECHO        EPOWER      EPOWERS     FITV        FORMDERI
+    GALILEO     LMCHOL      ME1STORD    NOCHECKA    NOELASTI    NOSAVEF 
+    NOSAVEMX    NOSAVESI    NOSCRFIL    NOWRITEW    NZRDWBA     ONEPASS 
+    POTNONRE    QUADRATI    R0TARGET    SUBBORN     SW1OFF      SW2OFF  
+    SW3OFF      TRUEMASS    USECORE     USEPROJE    WOODSSAX
              ---- NUMBERED STORAGE CATALOG ----
 0  NUMBER   NAME     LENGTH      START        END
         3  VBOUND1     1001        2008       3010
         5  PHI1        1001        4012       5014
+        9  VBOUND2      795        7608       8404
+       11  PHI2         795        9200       9996
+       14  REALVA       401       11194      11596
+       15  IMAGVA       402       11596      11999
+       16  CENTRIFA     401       11999      12401
+       21  REALVB       401       15563      15965
+       22  IMAGVB       402       15965      16368
+       23  CENTRIFB     401       16368      16770
+       24  REALVSOB     401       16770      17172
+       25  IMAGVSOB     401       17172      17574
+       26  WAVER        407       17574      17982
+       27  WAVEI        407       17982      18390
+       28  ATERM          2       18390      18393
 0               ALLOCATOR STATISTICS
                                         WORDS   KILOBYTES
  ALLOCATOR SIZE:                      6249990   48828.0
- CURRENT UNCOMPRESSED SIZE:              6012      47.0
- CURRENT COMPRESSED SIZE:                2004      15.7
+ CURRENT UNCOMPRESSED SIZE:             18389     143.7
+ CURRENT COMPRESSED SIZE:                7633      59.6
  PEAK COMPRESSED SIZE:                  67185     524.9
 0NAME STACK SIZE:                         500
- CURRENT HIGHEST NAME:                      6
- CURRENT NAMES IN USE:                      2
+ CURRENT HIGHEST NAME:                     28
+ CURRENT NAMES IN USE:                     15
  PEAK NAMES IN USE:                        70
  NUMBER OF ALLOCATOR COMPRESSES:            0
 
