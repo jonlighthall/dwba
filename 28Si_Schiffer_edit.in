@@ -1,0 +1,56 @@
+
+print 0
+r0target
+JBIGA = 0 parbiga = +1
+REACTION:   28Si(d,p)29Si(0.0 1/2+)   ELAB = 12
+PARAMETERSET alpha2
+PROJECTILE
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
+;
+TARGET
+NODES = 1 
+R0 = 1.28   A=.76 L=0 
+VSO = 6   RSO0 = 1.09   ASO = .6
+;
+INCOMING
+V=103  r0=1.0  a=.943
+Vsi=29.6  rsi0=1.501  asi=.527
+RC0=1.25
+;
+OUTGOING
+V=50.3 r0=1.25 a=.64
+vsi=7.95 rsi0=1.25 asi=.74
+RC0=1.25
+;
+ANGLEMAX = 90   anglestep = 1
+;
+writens crosssec
+
+reset
+PARAMETERSET alpha2
+print 0
+r0target
+JBIGA = 0 parbiga = +1
+REACTION:   28Si(d,p)29Si(1.273398 3/2+)   ELAB = 12
+PROJECTILE
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
+;
+TARGET
+NODES = 1 L=2
+R0 = 1.28   A=.76 VSO = 6
+RSO0 = 1.09   ASO = .6
+;
+INCOMING
+V=103  r0=1.0  a=.943
+Vsi=29.6  rsi0=1.501  asi=.527
+RC0=1.25
+;
+OUTGOING
+V=50.3 r0=1.25 a=.64
+vsi=7.95 rsi0=1.25 asi=.74
+RC0=1.25
+;
+ANGLEMAX = 90   anglestep = 1
+;
+writens crosssec
+end
