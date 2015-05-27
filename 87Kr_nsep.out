@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  080913.118
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  082947.993
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  080913.118
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  082947.994
 
 0INPUT... print 0
 0INPUT... $------------------------------------------------
@@ -83,14 +83,14 @@
 087Kr(d,p)88Kr(0+ 7.053)                      ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.145 SEC
- INTERPOLATING H'S                  0.012 SEC
- COMPUTING SCATTERING WAVES         0.001 SEC
- INTERPOLATING SCATTERING WAVES     0.006 SEC
- REST OF RI & RO LOOP               0.007 SEC
+ IN PHI & A12 LOOP                  0.147 SEC
+ INTERPOLATING H'S                  0.005 SEC
+ COMPUTING SCATTERING WAVES         0.000 SEC
+ INTERPOLATING SCATTERING WAVES     0.004 SEC
+ REST OF RI & RO LOOP               0.010 SEC
  REST OF LO LOOP                    0.001 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.172 SEC
+ TOTAL TIME                         0.167 SEC
  NUMBER OF CALLS TO second           3228 CALLS
  
     34209000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.004 MICROSECONDS
@@ -98,7 +98,7 @@
      1638000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       546000 PASSES WERE MADE THE PHI LOOP
       112500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.107 MICROSECONDS
+      112500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.044 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -1430,21 +1430,21 @@
 0
 0
 0CPU TIMES FOR CROSS SECTIONS (SECONDS):
-0PRINTING PHASE SHIFTS            0.000
- ELASTIC CROSS SECTIONS           0.004
- BETA'S (SUM ON LI)               0.000
- REACTION CROSS SECTIONS          0.012          (   0.57 MFLOPS = 47.475 MFLOP/SEC )
+0PRINTING PHASE SHIFTS            0.001
+ ELASTIC CROSS SECTIONS           0.003
+ BETA'S (SUM ON LI)               0.001
+ REACTION CROSS SECTIONS          0.011          (   0.57 MFLOPS = 51.792 MFLOP/SEC )
  REACTION ANALYZING POWERS        0.001
- ELASTIC ANALYZING POWERS         0.001
+ ELASTIC ANALYZING POWERS         0.002
  ALL OTHER TIME                   0.000
- TOTAL TIME                              0.018
+ TOTAL TIME                              0.019
 
 0
 0INPUT... writens crosssec
  NUMBERED STORAGE OBJECT 132 with    181 elements WRITTEN TO FT15 WITH 5G14.5 FORMAT
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  080913.347
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          27 May 15  082948.215
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
@@ -1455,6 +1455,7 @@
 0INPUT... $The first excited state of 87Kr is 1/2+ at 532.01 keV
 0INPUT... r0target
 0INPUT... $E*BIGA=0.53201 JBIGA=1/2 parbiga=+1
+0INPUT... JBIGA=5/2 parbiga=+1
 0INPUT... REACTION: 87Kr(d,p)88Kr(5/2+ 7.053) ELAB=12.08460998
 0INPUT... PARAMETERSET alpha2
 0INPUT... PROJECTILE
@@ -1523,12 +1524,12 @@
 087Kr(d,p)88Kr(5/2+ 7.053)                    ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.047 SEC
+ IN PHI & A12 LOOP                  0.045 SEC
  INTERPOLATING H'S                  0.000 SEC
- COMPUTING SCATTERING WAVES         0.001 SEC
- INTERPOLATING SCATTERING WAVES     0.004 SEC
- REST OF RI & RO LOOP               0.002 SEC
- REST OF LO LOOP                    0.001 SEC
+ COMPUTING SCATTERING WAVES         0.002 SEC
+ INTERPOLATING SCATTERING WAVES     0.005 SEC
+ REST OF RI & RO LOOP               0.003 SEC
+ REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
  TOTAL TIME                         0.055 SEC
  NUMBER OF CALLS TO second           3228 CALLS
@@ -1559,7 +1560,7 @@
                               LI     VALUE     USED          A         C    LWIDTH    LCRIT   MAX L         CP        AP        BP
                                                                             OR B              NEEDED
 
-0 TIME FOR L-INTERPOLATIONS :   0.001 SECONDS
+0 TIME FOR L-INTERPOLATIONS :   0.000 SECONDS
 
 1                                                      P T O L E M Y
           COMPUTATION OF CROSS SECTIONS                                      SOPHISTICATED PROGRAMS CONTAIN SUBTLE ERRORS
