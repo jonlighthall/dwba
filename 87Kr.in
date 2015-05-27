@@ -345,7 +345,7 @@ $  l_n=1
 $  lowest 3/2 state is at 1.47613 and is 3/2+
 $0**** L AND PARITIES ARE INCOMPATABLE:    1    1    1    1
 r0target
-E*BIGA=1.47613 JBIGA=3/2 parbiga=+1 
+E*BIGA=1.47613 JBIGA=3/2 $parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
