@@ -12,7 +12,7 @@ R=1 A=0.5 WAVEFUNCTION=REID L=0
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.25
+ASYMPTOPIA 25.40
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -107,7 +107,7 @@ R=1 A=0.5 WAVEFUNCTION=REID L=0
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.12
+ASYMPTOPIA 25.25
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -163,12 +163,12 @@ JBIGA=5/2 parbiga=+1
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 6.96
+ASYMPTOPIA 6.85
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.18
+ASYMPTOPIA 25.36
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -231,7 +231,7 @@ R=1 A=0.5 WAVEFUNCTION=REID L=0
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.12
+ASYMPTOPIA 25.22
 NODES=1
 R0=1.25 A=.63 L=4
 VSO=7 RSO0=1.10 ASO=.5
@@ -292,7 +292,7 @@ R=1 A=0.5 WAVEFUNCTION=REID L=0
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.15
+ASYMPTOPIA 25.32
 NODES=1
 R0=1.25 A=.63 L=0
 VSO=7 RSO0=1.10 ASO=.5
@@ -343,16 +343,18 @@ reset
 $------------------------------------------------
 $  l_n=1
 $  lowest 3/2 state is at 1.47613 and is 3/2+
-$0**** L AND PARITIES ARE INCOMPATABLE:    1    1    1    1
+$  removed parbiga
 r0target
 E*BIGA=1.47613 JBIGA=3/2 $parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
+ASYMPTOPIA=6.42
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
+ASYMPTOPIA=25.14
 NODES=1
 R0=1.25 A=.63 L=1
 VSO=7 RSO0=1.10 ASO=.5
@@ -401,10 +403,11 @@ ANGLEMAX=180 anglestep = 1
 writens crosssec
 reset
 $------------------------------------------------
-$l_n=3
-$lowest 7/2 state is at 2.51934 and is 7/2+
+$  l_n=3
+$  lowest 7/2 state is at 2.51934 and is 7/2+
+$  removed parbiga
 r0target
-E*BIGA=2.51934 JBIGA=7/2 parbiga=+1 
+E*BIGA=2.51934 JBIGA=7/2 $parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
