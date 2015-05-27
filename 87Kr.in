@@ -159,7 +159,7 @@ $------------------------------------------------
 $for S(n) energy and l_n=2
 $ground state is 5/2+
 r0target
-$JBIGA=5/2 parbiga=+1 
+JBIGA=5/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
@@ -283,7 +283,7 @@ $------------------------------------------------
 $for S(n) energy and ln=0
 $The first excited state of 87Kr is 1/2+ at 532.01 keV
 r0target
-$E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
+E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
