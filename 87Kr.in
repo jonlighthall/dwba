@@ -203,11 +203,13 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 $------------------------------------------------
+$l_n=4
 reset
 r0target
 $The ground state of 87Kr is 5/2+
-JBIGA=9/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=4
+$The lowest suspected state with 9/2 is at 2.25810
+E*BIGA=2.25810 JBIGA=9/2 parbiga=-1 
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy 
 PARAMETERSET alpha2
 PROJECTILE
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
@@ -264,7 +266,7 @@ $------------------------------------------------
 reset
 r0target
 $The first excited state of 87Kr is 1/2+ at 532.01 keV
-JBIGA=1/2 parbiga=+1 
+E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=0
 PARAMETERSET alpha2
 PROJECTILE
@@ -322,8 +324,9 @@ $------------------------------------------------
 $l_n=1
 reset
 r0target
-JBIGA=3/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=0
+$lowest 3/2 state is at 1.47613 and is 3/2+
+E*BIGA=1.47613 JBIGA=3/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
@@ -380,8 +383,9 @@ $------------------------------------------------
 $l_n=3
 reset
 r0target
-JBIGA=7/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy and ln=0
+$lowest 7/2 state is at 2.51934 and is 7/2+
+E*BIGA=2.51934 JBIGA=7/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
