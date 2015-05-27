@@ -18,77 +18,118 @@ R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
 $Charge Radius
-$r_c = 1.303000  fm
+RC0 = 1.303000
 $Real Volume Terms
-$V_v = 94.073795  MeV
-$r_v = 1.150249  fm
-$a_v = 0.774831  fm
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
 $Imaginary Volume Terms
-$W_v = 1.855663  MeV
-$r_w = 1.327500  fm
-$a_w = 0.411895  fm
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
 $Imaginary Surface Terms
-$W_s = 10.460211  MeV --> 4*W_s = 41.840844  MeV
-$r_s = 1.368303  fm
-$a_s = 0.805725  fm
-$Real Spin-Orbit Terms
-$V_so = 3.557000  MeV
-$r_so = 0.972000  fm
-$a_so = 1.011000  fm
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=16.450000
 $Charge Radius
-$r_c = 1.240693  fm
+RC0 = 1.240693
 $Real Volume Terms
-$V_v = 55.411643  MeV
-$r_v = 1.212757  fm
-$a_v = 0.664714  fm
-$Imaginary Volume Terms
-$W_v = 1.230889  MeV
-$r_w = 1.212757  fm
-$a_w = 0.664714  fm
-$Imaginary Surface Terms
-$W_s = 11.292683  MeV --> 4*W_s = 45.170733  MeV
-$r_s = 1.271900  fm
-$a_s = 0.564504  fm
-$Real Spin-Orbit Terms
-$V_so = 5.627747  MeV
-$r_so = 1.039940  fm
-$a_so = 0.590000  fm
-$Imaginary Spin-Orbit Terms
-$W_so = -0.066254  MeV
-$r_so = 1.039940  fm
-$a_so = 0.590000  fm
-RC0 = 1.240693 
 V = 55.411643
-R0 = 1.212757 
-A = 0.664714 
-VI = 1.230889 
-RI0 = 1.212757 
-AI = 0.664714 
+R0 = 1.212757
+A = 0.664714
+$Imaginary Volume Terms
+VI = 1.230889
+RI0 = 1.212757
+AI = 0.664714
+$Imaginary Surface Terms
 VSI = 11.292683
-RSI0 = 1.271900 
-ASI = 0.564504 
+RSI0 = 1.271900
+ASI= 0.564504
+$Real Spin-Orbit Terms
 VSO = 5.627747
 RSO0 = 1.039940
 ASO = 0.590000
+$Imaginary Spin-Orbit Terms
 VSOI = -0.066254
-RSOI0 = 1.039940 
-ASOI = 0.590000 
+RSOI0 = 1.039940
+ASOI = 0.590000
+;
+ANGLEMAX=180 anglestep = 1
+;
+writens crosssec
+reset
+$------------------------------------------------
+$ground state transition to 5MeV 0+ state, same proton energy
+$ground state is of 87Kr is 5/2+
+r0target
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(0+ 5.00) ELAB=12.08460998 
+PARAMETERSET alpha2
+PROJECTILE
+ASYMPTOPIA 7.09
+R=1 A=0.5 WAVEFUNCTION=REID L=0 
+Rc=1.2
+;
+TARGET
+ASYMPTOPIA 25.45
+NODES=1
+R0=1.25 A=.63 L=2
+VSO=7 RSO0=1.10 ASO=.5
+;
+INCOMING
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
+VSI = 10.460211
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
+;
+OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=16.450000
+$Charge Radius
+RC0 = 1.240693
+$Real Volume Terms
+V = 55.411643
+R0 = 1.212757
+A = 0.664714
+$Imaginary Volume Terms
+VI = 1.230889
+RI0 = 1.212757
+AI = 0.664714
+$Imaginary Surface Terms
+VSI = 11.292683
+RSI0 = 1.271900
+ASI= 0.564504
+$Real Spin-Orbit Terms
+VSO = 5.627747
+RSO0 = 1.039940
+ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+VSOI = -0.066254
+RSOI0 = 1.039940
+ASOI = 0.590000
 ;
 ANGLEMAX=180 anglestep = 1
 ;
@@ -113,21 +154,28 @@ R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=11.510000
 $Charge Radius
 RC0 = 1.240693
 $Real Volume Terms
@@ -174,21 +222,28 @@ R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=9.480000
 $Charge Radius
 RC0 = 1.240693
 $Real Volume Terms
@@ -237,21 +292,28 @@ R0=1.25 A=.63 L=4
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=9.480000
 $Charge Radius
 RC0 = 1.240693
 $Real Volume Terms
@@ -298,21 +360,28 @@ R0=1.25 A=.63 L=0
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=9.480000
 $Charge Radius
 RC0 = 1.240693
 $Real Volume Terms
@@ -360,21 +429,28 @@ R0=1.25 A=.63 L=1
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=9.480000
 $Charge Radius
 RC0 = 1.240693
 $Real Volume Terms
@@ -422,21 +498,28 @@ R0=1.25 A=.63 L=3
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
-RC0=1.303
-V=94.073795
-R0=1.150249
-A=0.774831
-VI=1.855663
-RI0=1.327500
-AI=0.411895
+$Deuteron potential calculated for A=36 Z=87 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.073795
+R0 = 1.150249
+A = 0.774831
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327500
+AI = 0.411895
+$Imaginary Surface Terms
 VSI = 10.460211
-RSI0 = 1.368303 
-ASI = 0.805725 
-VSO=3.557000
-RSO0=0.972000
-ASO=1.011000
+RSI0 = 1.368303
+ASI= 0.805725
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
 ;
 OUTGOING
+$Proton potential calculated for A=36 Z=88 E_p=9.480000
 $Charge Radius
 RC0 = 1.240693
 $Real Volume Terms
