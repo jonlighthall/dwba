@@ -329,7 +329,7 @@ writens crosssec
 reset
 print 0
 $------------------------------------------------
-$ Ground state transition to S(n) energy with l_n=0
+$ Ground state transition to S(n) energy with l_n=0 to Jpi=3+
 $ with values from literature
 $ using Seth et al. 1974 Phys. Rev. C 10 1928
 r0target
@@ -390,4 +390,69 @@ ASO = 0.75
 ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
+reset
+print 0
+$------------------------------------------------
+$ Ground state transition to S(n) energy with l_n=1
+$ with values from literature
+$ using Seth et al. 1974 Phys. Rev. C 10 1928
+r0target
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(2- 7.053) ELAB=12.08460998 
+PARAMETERSET alpha2
+PROJECTILE
+$ASYMPTOPIA 6.97
+R=1 A=0.5 WAVEFUNCTION=REID L=0 
+Rc=1.2
+;
+TARGET
+$ASYMPTOPIA 25.48
+NODES=1
+R0=1.25 A=.63 L=1 $jp=3/2
+VSO=7 RSO0=1.10 ASO=.5
+;
+INCOMING
+$Deuteron potential calculated for Z=38 A=87 E_d=12
+$Using Lohr potential 
+$Charge Radius
+RC0 = 1.3
+$Real Volume Terms
+V = 110.0
+R0 = 1.05
+A = 0.86
+$Imaginary Surface Terms
+VSI = 10.0
+RSI0 = 1.45
+ASI= 0.80
+$Real Spin-Orbit Terms
+VSO = 7.0
+RSO0 = 0.75
+ASO = 0.50
+;
+OUTGOING
+$Proton potential calculated for Z=38 A=88 E_p=16
+$Bechetti
+$Charge Radius
+RC0 = 1.3
+$Real Volume Terms
+V = 55.25
+R0 = 1.17
+A = 0.75
+$Imaginary Volume Terms
+VI = 1.04
+RI0 = 1.32
+AI = 0.60
+$Imaginary Surface Terms
+VSI = 9.19
+RSI0 = 1.32
+ASI= 0.60
+$Real Spin-Orbit Terms
+VSO = 6.2
+RSO0 = 1.01
+ASO = 0.75
+;
+ANGLEMAX=180 anglestep = 1
+;
+writens crosssec
+reset
 end
