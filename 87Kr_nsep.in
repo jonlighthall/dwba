@@ -1,12 +1,12 @@
 reset
 print 0
 $------------------------------------------------
-$ Ground state transition to S(n) energy with l_n=0 to Jpi=3+
+$ Ground state transition to S(n) energy with l_n=1
 $ with values from literature
 $ using Seth et al. 1974 Phys. Rev. C 10 1928
 r0target
 JBIGA=5/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(3+ 7.053) ELAB=12.08460998 
+REACTION: 87Kr(d,p)88Kr(1- 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
 $ASYMPTOPIA 6.97
@@ -16,7 +16,7 @@ Rc=1.2
 TARGET
 $ASYMPTOPIA 25.48
 NODES=1
-R0=1.25 A=.63 L=0
+R0=1.25 A=.63 L=1 jp=3/2
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
