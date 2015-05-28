@@ -1,18 +1,19 @@
 reset
+print 0
 $------------------------------------------------
-$ground state transition
+$ground state transition l_n=2
 $ground state is of 87Kr is 5/2+
 r0target
 JBIGA=5/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 0.00) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 7.09
+$ASYMPTOPIA 7.09
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.45
+$ASYMPTOPIA 25.45
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -67,20 +68,21 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
-$ground state transition to 5MeV 0+ state, same proton energy
+$ground state transition l_n=2 to 5MeV 0+ state, same proton energy
 $ground state is of 87Kr is 5/2+
 r0target
 JBIGA=5/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 5.00) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 7.09
+$ASYMPTOPIA 7.09
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.45
+$ASYMPTOPIA 25.45
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -135,20 +137,21 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
-$5MeV with updated outgoing
+$5MeV l_n=2 transition with updated outgoing
 $ground state is 5/2+
 r0target
 JBIGA=5/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 5.00) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 6.22
+$ASYMPTOPIA 6.22
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.42
+$ASYMPTOPIA 25.42
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -203,20 +206,21 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
-$for S(n) energy and l_n=2
+$ground state transition to S(n) energy and l_n=2
 $ground state is 5/2+
 r0target
 JBIGA=5/2 parbiga=+1 
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 6.85
+$ASYMPTOPIA 6.85
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.52
+$ASYMPTOPIA 25.52
 NODES=1
 R0=1.25 A=.63 L=2
 VSO=7 RSO0=1.10 ASO=.5
@@ -271,6 +275,7 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
 $l_n=4
 $The ground state of 87Kr is 5/2+
@@ -278,15 +283,15 @@ $The lowest suspected state with 9/2 is at 2.25810 with 9/2-
 $parity set to +1
 r0target
 E*BIGA=2.25810 JBIGA=9/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy 
+REACTION: 87Kr(d,p)88Kr(2+ 7.053) ELAB=12.08460998 $for S(n) energy 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 6.88
+$ASYMPTOPIA 6.88
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.40
+$ASYMPTOPIA 25.40
 NODES=1
 R0=1.25 A=.63 L=4
 VSO=7 RSO0=1.10 ASO=.5
@@ -341,20 +346,22 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
-$for S(n) energy and ln=0
+$ Ground state transition to S(n) energy with l_n=0
 $The first excited state of 87Kr is 1/2+ at 532.01 keV
 r0target
-E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 
+$E*BIGA=0.53201 JBIGA=1/2 parbiga=+1 
+JBIGA=5/2 parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(2+ 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA 6.97
+$ASYMPTOPIA 6.97
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA 25.48
+$ASYMPTOPIA 25.48
 NODES=1
 R0=1.25 A=.63 L=0
 VSO=7 RSO0=1.10 ASO=.5
@@ -409,23 +416,25 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
-$  l_n=1
+$  l_n=1 from gs to S(n) energy and Jpi=1-
 $  lowest 3/2 state is at 1.47613 and is 3/2+
 $  removed parbiga
 r0target
-E*BIGA=1.47613 JBIGA=3/2 $parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
+JBIGA=5/2 parbiga=+1 
+$E*BIGA=1.47613 JBIGA=3/2 $parbiga=+1 
+REACTION: 87Kr(d,p)88Kr(1- 7.053) ELAB=12.08460998 
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA=6.42
+$ASYMPTOPIA=6.42
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA=25.28
+$ASYMPTOPIA=25.28
 NODES=1
-R0=1.25 A=.63 L=1
+R0=1.25 A=.63 L=1 jp=3/2
 VSO=7 RSO0=1.10 ASO=.5
 ;
 INCOMING
@@ -478,6 +487,7 @@ ANGLEMAX=180 anglestep = 1
 ;
 writens crosssec
 reset
+print 0
 $------------------------------------------------
 $  l_n=3
 $  lowest 7/2 state is at 2.51934 and is 7/2+
@@ -487,12 +497,12 @@ E*BIGA=2.51934 JBIGA=7/2 $parbiga=+1
 REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy
 PARAMETERSET alpha2
 PROJECTILE
-ASYMPTOPIA=6.61
+$ASYMPTOPIA=6.61
 R=1 A=0.5 WAVEFUNCTION=REID L=0 
 Rc=1.2
 ;
 TARGET
-ASYMPTOPIA=25.12
+$ASYMPTOPIA=25.12
 NODES=1
 R0=1.25 A=.63 L=3
 VSO=7 RSO0=1.10 ASO=.5
