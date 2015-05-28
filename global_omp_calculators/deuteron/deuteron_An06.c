@@ -78,7 +78,7 @@ int main()
    //added below for PTOLEMY
    printf("*********************************\n\n");
    printf("Here are the requested parameters:\nFormatted for PTOLEMY\n");
-   printf("$Deuteron potential calculated for A=%d Z=%d E_d=%f\n",a,b,E_d);
+   printf("$Deuteron potential calculated for Z=%d A=%d E_d=%f\n",a,b,E_d);
    printf("$Charge Radius\n");
    printf("RC0 = %lf\n", r_c);
    printf("$Real Volume Terms\n");
