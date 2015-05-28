@@ -1,0 +1,160 @@
+                                                 P T O L E M Y
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          28 May 15  002604.535
+
+0INPUT... reset
+                                                 P T O L E M Y
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  sonata.phy.anl.gov          28 May 15  002604.536
+
+0INPUT... print 0
+0INPUT... $------------------------------------------------
+0INPUT... $ Ground state transition
+0INPUT... $ with values from literature
+0INPUT... $ using Seth et al. 1974 Phys. Rev. C 10 1928
+0INPUT... r0target
+0INPUT... JBIGA=9/2 parbiga=+1
+0INPUT... REACTION: 87Sr(d,p)88Sr(2+ 0.0) ELAB=12
+0INPUT... PARAMETERSET alpha2
+0INPUT... PROJECTILE
+0INPUT... $ASYMPTOPIA 6.97
+0INPUT... R=1 A=0.5 WAVEFUNCTION=REID L=0
+ LINKULE REID     IS LINKULE NUMBER/location       7
+0INPUT... Rc=1.2
+0INPUT... ;
+0FIXED COMMON BLOCK VERSION OF PTOLEMY,  ALLOCATOR SIZE =  6249990 WORDS.
+
+ Check of LOC:   136707280   136707280
+ CURRENT ALLOCATOR SIZE =    6249990 words          BIASES =    136707280   136707264           3
+0INPUT... TARGET
+0INPUT... $ASYMPTOPIA 25.48
+0INPUT... NODES=1
+0INPUT... R0=1.25 A=.63 L=2 Jp=3/2
+0INPUT... VSO=7 RSO0=1.10 ASO=.5
+0INPUT... ;
+0INPUT... INCOMING
+0INPUT... $Deuteron potential calculated for Z=38 A=87 E_d=12
+0INPUT... $Using Lohr potential
+0INPUT... $Charge Radius
+0INPUT... RC0 = 1.3
+0INPUT... $Real Volume Terms
+0INPUT... V = 110.0
+0INPUT... R0 = 1.05
+0INPUT... A = 0.86
+0INPUT... $Imaginary Surface Terms
+0INPUT... VSI = 10.0
+0INPUT... RSI0 = 1.45
+0INPUT... ASI= 0.80
+0INPUT... $Real Spin-Orbit Terms
+0INPUT... VSO = 7.0
+0INPUT... RSO0 = 0.75
+0INPUT... ASO = 0.50
+0INPUT... ;
+0INPUT... OUTGOING
+0INPUT... $Proton potential calculated for Z=38 A=88 E_p=16
+0INPUT... $Bechetti
+0INPUT... $Charge Radius
+0INPUT... RC0 = 1.3
+0INPUT... $Real Volume Terms
+0INPUT... V = 55.25
+0INPUT... R0 = 1.17
+0INPUT... A = 0.75
+0INPUT... $Imaginary Volume Terms
+0INPUT... VI = 1.04
+0INPUT... RI0 = 1.32
+0INPUT... AI = 0.60
+0INPUT... $Imaginary Surface Terms
+0INPUT... VSI = 9.19
+0INPUT... RSI0 = 1.32
+0INPUT... ASI= 0.60
+0INPUT... $Real Spin-Orbit Terms
+0INPUT... VSO = 6.2
+0INPUT... RSO0 = 1.01
+0INPUT... ASO = 0.75
+0INPUT... ;
+0INPUT... ANGLEMAX=180 anglestep = 1
+0INPUT... ;
+0***** ERROR IN INPUT:
+ JA, JB, JBIGA, JBIGB =    2/2    1/2    9/2    4/2
+ RESULTS IN
+ JBPMIN, JBPMAX, JBTMIN, JBTMAX =    1/2    3/2    5/2   13/2
+ BUT  JBP, JBT =    1/2    3/2  AND ARE OUT OF BOUNDS.
+0**** ERROR DETECTED IN PREVIOUS STEP.
+
+
+ DATA ENTERING KEYWORDS AND THEIR VALUES ARE:
+
+ A         NOT DEJP                NOT DENUMRANDO                RTL0      NOT DEACCURACY          0.1000JPARAM1   NOT DE
+ PARA            RTLI              NOT DEAE                      JPARAM2   NOT DEPARAM1            NOT DERTLI0     NOT DE
+ AESQ            JPARAM3           NOT DEPARAM10   NOT DE        RTPR      NOT DEAI                NOT DEJX             1
+ PARAM11   NOT DERTPR0             NOT DEAIE                     L         NOT DEPARAM12           NOT DERTPRI     NOT DE
+ AIESQ           LBACK             NOT DEPARAM13   NOT DE        RTPRI0    NOT DEANGLEMAX              18LEPSBACK        
+ PARAM14   NOT DERTR               NOT DEANGLEMIN                LMAX            PARAM15           NOT DERTR0      NOT DE
+ ANGLESTE        LMAXADD                 PARAM16   NOT DE        RTRI      NOT DEASI               NOT DELMAXMULT   1.700
+ PARAM17   NOT DERTRI0             NOT DEASO       NOT DE        LMIN            PARAM18           NOT DESCATASYM      -2
+ ASOI      NOT DELMINMULT          0.5000PARAM19   NOT DE        SIZE        2000ASYMPTOP          NOT DELMINSUB         
+ PARAM2    NOT DESP                NOT DEATL       NOT DE        LOOKSTEP       2PARAM20           NOT DESPAM      NOT DE
+ ATLI      NOT DELSTEP                   PARAM3    NOT DE        SPAMP     0.9671ATPR              NOT DELX              
+ PARAM4    NOT DESPAMT                   ATPRI     NOT DE        M         NOT DEPARAM5            NOT DESPFACP    0.9353
+ ATR       NOT DEMA                      PARAM6    NOT DE        SPFACT          ATRI              NOT DEMAPDIF          
+ PARAM7    NOT DEST                NOT DEBLOCKSIZ      56        MAPPHI          PARAM8            NOT DESTEP1I          
+ BOUNDASY       2MAPSUM                  PARAM9    NOT DE        STEP1R          COULOMBM                MAXCOULI        
+ PARB            STEPSIZE          0.0500DELTAVK   0.0500        MAXFUNCT        PARBIGA                 STEPSPER       2
+ DERIVSTE  0.1000MAXITER                 PARBIGB                 SUMMAX    NOT DEDWCUTOFF          0.1000MAXLEXTR       1
+ PARITY          SUMMID            NOT DEE         NOT DE        MB              PARP                    SUMMIN    NOT DE
+ E*A             MBIGA                  8PART                    SUMPOINT        E*B                     MBIGB          8
+ PARX            TAU                     E*BIGA                  MIDMULT         PHIMID            0.5000TAUI            
+ E*BIGB          MP                NOT DEPRINT                   V               E*P               NOT DEMT        NOT DE
+ Q          8.888VE                      E*T       NOT DE        MX              R                 NOT DEVESQ            
+ E*X             MXCA              13.135R0        NOT DE        VI              ECM               11.728MXCB       7.288
+ R0E             VIE                     ELAB           1        MXCBIGA  -84.880R0ESQ                   VIESQ           
+ FITACCUR  0.1000MXCBIGB          -87.921RC        NOT DE        VPOLYORD        FITMODE                 MXCGA     13.135
+ RC0       NOT DEVSI                     FITMULTI      50        MXCGB      7.288RC0P              NOT DEVSO             
+ FITRATIO  0.1000MXCGBIGA         -84.880RC0T      NOT DE        VSOI            GAMMADIF                MXCGBIGB -87.921
+ RCP       NOT DEVTL                     GAMMAPHI  0.1000        MXCGP     NOT DERCT               NOT DEVTLI            
+ GAMMASUM        MXCGT             NOT DEREALPOWE                VTPR            IMAGPOWE                MXCGX      8.071
+ REINITIA        VTPRI                   INELASAC  0.1000        MXCX       8.071RI                NOT DEVTR             
+ IPARAM1   NOT DENAITKEN                 RI0       NOT DE        VTRI            IPARAM2           NOT DENBACK           
+ RI0E            WRITESTE          NOT DEIPARAM3   NOT DE        NCOSINE        2RI0ESQ                  ZA              
+ IPARAM4   NOT DENFIRSTOF                RSI       NOT DE        ZB              IPARAM5           NOT DENODES     NOT DE
+ RSI0      NOT DEZBIGA                   J         NOT DE        NPCOULOM        RSO               NOT DEZBIGB           
+ JA              NPDIF                   RSO0      NOT DE        ZP        NOT DEJB                     1NPHIADD         
+ RSOI      NOT DEZT                NOT DEJBIGA          9        NPPHI           RSOI0             NOT DEZX              
+ JBIGB           NPSUM                   RTL       NOT DE                        
+
+ THE FOLLOWING OPTIONS HAVE BEEN CHOSEN:
+
+    BATCH       BFACTORS    BLOCKREL    CMANGLES    COMPLEXW    DOASYMPT
+    DWBA        ECHO        EPOWER      EPOWERS     FITV        FORMDERI
+    GALILEO     LMCHOL      ME1STORD    NOCHECKA    NOELASTI    NOSAVEF 
+    NOSAVEMX    NOSAVESI    NOSCRFIL    NOWRITEW    NZRDWBA     ONEPASS 
+    POTNONRE    QUADRATI    R0TARGET    SUBBORN     SW1OFF      SW2OFF  
+    SW3OFF      TRUEMASS    USECORE     USEPROJE    WOODSSAX
+             ---- NUMBERED STORAGE CATALOG ----
+0  NUMBER   NAME     LENGTH      START        END
+        3  VBOUND1     1001        2008       3010
+        5  PHI1        1001        4012       5014
+        9  VBOUND2      795        7608       8404
+       11  PHI2         795        9200       9996
+       14  REALVA       401       11194      11596
+       15  IMAGVA       402       11596      11999
+       16  CENTRIFA     401       11999      12401
+       17  REALVSOA     401       12401      12803
+       22  REALVB       401       15965      16367
+       23  IMAGVB       402       16367      16770
+       24  CENTRIFB     401       16770      17172
+       25  REALVSOB     401       17172      17574
+       26  WAVER        407       17574      17982
+       27  WAVEI        407       17982      18390
+       28  ATERM          3       18390      18394
+0               ALLOCATOR STATISTICS
+                                        WORDS   KILOBYTES
+ ALLOCATOR SIZE:                      6249990   48828.0
+ CURRENT UNCOMPRESSED SIZE:             18390     143.7
+ CURRENT COMPRESSED SIZE:                7634      59.6
+ PEAK COMPRESSED SIZE:                   9976      77.9
+0NAME STACK SIZE:                         500
+ CURRENT HIGHEST NAME:                     28
+ CURRENT NAMES IN USE:                     15
+ PEAK NAMES IN USE:                        16
+ NUMBER OF ALLOCATOR COMPRESSES:            0
+
+
