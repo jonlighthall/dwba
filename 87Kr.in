@@ -283,7 +283,7 @@ $The lowest suspected state with 9/2 is at 2.25810 with 9/2-
 $parity set to +1
 r0target
 E*BIGA=2.25810 JBIGA=9/2 parbiga=+1 
-REACTION: 87Kr(d,p)88Kr(2+ 7.053) ELAB=12.08460998 $for S(n) energy 
+REACTION: 87Kr(d,p)88Kr(0+ 7.053) ELAB=12.08460998 $for S(n) energy 
 PARAMETERSET alpha2
 PROJECTILE
 $ASYMPTOPIA 6.88
