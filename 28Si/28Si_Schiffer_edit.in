@@ -1,0 +1,120 @@
+
+print 0
+r0target
+JBIGA = 0 parbiga = +1
+REACTION:   28Si(d,p)29Si(0.0 1/2+)   ELAB = 12
+PARAMETERSET alpha2
+PROJECTILE
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
+;
+TARGET
+NODES = 1 
+R0 = 1.28   A=.76 L=0 
+VSO = 6   RSO0 = 1.09   ASO = .6
+;
+INCOMING
+V=103  r0=1.0  a=.943
+Vsi=29.6  rsi0=1.501  asi=.527
+RC0=1.25
+;
+OUTGOING
+V=50.3 r0=1.25 a=.64
+vsi=7.95 rsi0=1.25 asi=.74
+RC0=1.25
+;
+ANGLEMAX = 90   anglestep = 1
+;
+writens crosssec
+
+reset
+PARAMETERSET alpha2
+print 0
+r0target
+JBIGA = 0 parbiga = +1
+REACTION:   28Si(d,p)29Si(1.273398 3/2+)   ELAB = 12
+PROJECTILE
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
+;
+TARGET
+NODES = 1 L=2
+R0 = 1.28   A=.76 VSO = 6
+RSO0 = 1.09   ASO = .6
+;
+INCOMING
+V=103  r0=1.0  a=.943
+Vsi=29.6  rsi0=1.501  asi=.527
+RC0=1.25
+;
+OUTGOING
+V=50.3 r0=1.25 a=.64
+vsi=7.95 rsi0=1.25 asi=.74
+RC0=1.25
+;
+ANGLEMAX = 90   anglestep = 1
+;
+writens crosssec
+
+reset
+print 0
+r0target
+JBIGA = 0 parbiga = +1
+REACTION:   28Si(d,p)29Si(0.0 1/2+)   ELAB = 12
+PARAMETERSET alpha2
+PROJECTILE
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
+;
+TARGET
+NODES = 1 
+R0 = 1.28   A=.76 L=0 
+VSO = 6   RSO0 = 1.09   ASO = .6
+;
+INCOMING
+$Deuteron potential calculated for Z=14 A=28 E_d=12.132380
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 91.806012
+R0 = 1.149445
+A = 0.757261
+$Imaginary Volume Terms
+VI = 1.858634
+RI0 = 1.337833
+AI = 0.551341
+$Imaginary Surface Terms
+VSI = 10.458749
+RSI0 = 1.384056
+ASI= 0.719269
+$Real Spin-Orbit Terms
+VSO = 3.557000
+RSO0 = 0.972000
+ASO = 1.011000
+;
+OUTGOING
+$Proton potential calculated for Z=14 Ac=29 E_p=16.980000
+$Charge Radius
+RC0 = 1.319311
+$Real Volume Terms
+V = 51.547747
+R0 = 1.171947
+A = 0.673488
+$Imaginary Volume Terms
+VI = 1.463105
+RI0 = 1.171947
+AI = 0.673488
+$Imaginary Surface Terms
+VSI = 9.599430
+RSI0 = 1.293704
+ASI= 0.533795
+$Real Spin-Orbit Terms
+VSO = 5.437432
+RSO0 = 0.974810
+ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+VSOI = -0.073810
+RSOI0 = 0.974810
+ASOI = 0.590000
+;
+ANGLEMAX = 90   anglestep = 1
+;
+writens crosssec
+end
