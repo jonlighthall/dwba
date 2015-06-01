@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  214953.476
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  215003.018
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  214953.476
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  215003.018
 
 0INPUT... print 0
 0INPUT... r0target
@@ -87,22 +87,22 @@
 088Rb(d,p)89Rb                                ELAB =  12.08 MEV                                                                      
 
 0TIME IN A12                        0.000 SEC
- IN PHI & A12 LOOP                  0.034 SEC
- INTERPOLATING H'S                  0.003 SEC
- COMPUTING SCATTERING WAVES         0.000 SEC
+ IN PHI & A12 LOOP                  0.038 SEC
+ INTERPOLATING H'S                  0.000 SEC
+ COMPUTING SCATTERING WAVES         0.001 SEC
  INTERPOLATING SCATTERING WAVES     0.002 SEC
- REST OF RI & RO LOOP               0.001 SEC
+ REST OF RI & RO LOOP               0.000 SEC
  REST OF LO LOOP                    0.000 SEC
  ALL OTHER TIME                     0.000 SEC
- TOTAL TIME                         0.040 SEC
+ TOTAL TIME                         0.041 SEC
  NUMBER OF CALLS TO second           3352 CALLS
  
-     4116000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.008 MICROSECONDS
-     4116000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.008 MICROSECONDS
+     4116000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.009 MICROSECONDS
+     4116000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.009 MICROSECONDS
       567000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
       567000 PASSES WERE MADE THE PHI LOOP
        40500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
-       40500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.074 MICROSECONDS
+       40500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.000 MICROSECONDS
         0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
 
@@ -398,7 +398,7 @@
 0INPUT...  
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  214953.538
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  215003.080
 
 
    -------  ALL NUMBERED OBJECTS CLEARED  ------
