@@ -3,7 +3,7 @@ print 0
 r0target
 $ The ground state of 88Rb has Jpi=2-
 $JBIGA = 2 parbiga = -1 
-REACTION:  88Rb(d,p)89Rb(7.174655)   ELAB = 12.084610
+REACTION:  88Rb(d,p)89Rb(7.174655 3/2)   ELAB = 12.084610
 PARAMETERSET alpha2
 PROJECTILE $deuteron bound state parameters
 $ASYMPTOPIA = 100
@@ -70,7 +70,7 @@ print 0
 r0target
 $The ground state of 88Rb has Jpi=2-
 $JBIGA = 2 parbiga = -1 
-REACTION:  88Rb(d,p)89Rb(7.174655)   ELAB = 12.084610
+REACTION:  88Rb(d,p)89Rb(7.174655 3/2)   ELAB = 12.084610
 PARAMETERSET alpha2
 PROJECTILE $deuteron bound state parameters
 $ASYMPTOPIA = 100
