@@ -1,0 +1,97 @@
+                                                 P T O L E M Y
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  175628.876
+
+0INPUT... reset
+                                                 P T O L E M Y
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  175628.876
+
+0INPUT... print 0
+0INPUT... $------------------------------------------------
+0INPUT... $ Transition to S(n) energy with l_n=0
+0INPUT... r0target
+0INPUT... JBIGA=2 parbiga=-1  $the ground state of 88Rb is 2-
+0INPUT... REACTION: 88Rb(d,p)89Rb(1/2- 7.175) ELAB=12.08460998
+0INPUT... PARAMETERSET alpha2
+0INPUT... PROJECTILE
+0INPUT... R=1 A=0.5 WAVEFUNCTION=REID L=0
+ LINKULE REID     IS LINKULE NUMBER/location       7
+0INPUT... Rc=1.2
+0INPUT... ;
+0FIXED COMMON BLOCK VERSION OF PTOLEMY,  ALLOCATOR SIZE =  6249990 WORDS.
+
+ Check of LOC:   136707280   136707280
+ CURRENT ALLOCATOR SIZE =    6249990 words          BIASES =    136707280   136707264           3
+0INPUT... TARGET
+0INPUT... NODES=1
+0INPUT... R0=1.25 A=.63 L=0
+0INPUT... VSO=7 RSO0=1.10 ASO=.5
+0INPUT... ;
+0**** E OR V OR M (REDUCED MASS) HAS INVALID VALUE:    0.17900E-03     60.000         928.91    
+0**** ERROR DETECTED IN PREVIOUS STEP.
+
+
+ DATA ENTERING KEYWORDS AND THEIR VALUES ARE:
+
+ A         NOT DEJP                NOT DENUMRANDO                RTL0      NOT DEACCURACY          0.1000JPARAM1   NOT DE
+ PARA            RTLI              NOT DEAE                      JPARAM2   NOT DEPARAM1            NOT DERTLI0     NOT DE
+ AESQ            JPARAM3           NOT DEPARAM10   NOT DE        RTPR      NOT DEAI                NOT DEJX             1
+ PARAM11   NOT DERTPR0             NOT DEAIE                     L         NOT DEPARAM12           NOT DERTPRI     NOT DE
+ AIESQ           LBACK             NOT DEPARAM13   NOT DE        RTPRI0    NOT DEANGLEMAX               9LEPSBACK        
+ PARAM14   NOT DERTR               NOT DEANGLEMIN                LMAX      NOT DEPARAM15           NOT DERTR0      NOT DE
+ ANGLESTE        LMAXADD                 PARAM16   NOT DE        RTRI      NOT DEASI               NOT DELMAXMULT   1.700
+ PARAM17   NOT DERTRI0             NOT DEASO       NOT DE        LMIN      NOT DEPARAM18           NOT DESCATASYM      -2
+ ASOI      NOT DELMINMULT          0.5000PARAM19   NOT DE        SIZE        2000ASYMPTOP          NOT DELMINSUB         
+ PARAM2    NOT DESP                NOT DEATL       NOT DE        LOOKSTEP       2PARAM20           NOT DESPAM      NOT DE
+ ATLI      NOT DELSTEP                   PARAM3    NOT DE        SPAMP     0.9671ATPR              NOT DELX        NOT DE
+ PARAM4    NOT DESPAMT                   ATPRI     NOT DE        M         NOT DEPARAM5            NOT DESPFACP          
+ ATR       NOT DEMA                      PARAM6    NOT DE        SPFACT          ATRI              NOT DEMAPDIF          
+ PARAM7    NOT DEST                NOT DEBLOCKSIZ      56        MAPPHI          PARAM8            NOT DESTEP1I          
+ BOUNDASY       2MAPSUM                  PARAM9    NOT DE        STEP1R          COULOMBM                MAXCOULI        
+ PARB            STEPSIZE          0.0250DELTAVK   0.0500        MAXFUNCT        PARBIGA                 STEPSPER       2
+ DERIVSTE  0.1000MAXITER                 PARBIGB                 SUMMAX    NOT DEDWCUTOFF          0.1000MAXLEXTR       1
+ PARITY          SUMMID            NOT DEE         NOT DE        MB              PARP                    SUMMIN    NOT DE
+ E*A             MBIGA                  8PART                    SUMPOINT        E*B                     MBIGB          8
+ PARX            TAU                     E*BIGA                  MIDMULT         PHIMID            0.5000TAUI            
+ E*BIGB     7.175MP                NOT DEPRINT                   V               E*P               NOT DEMT        NOT DE
+ Q         NOT DEVE                      E*T       NOT DE        MX              R                 NOT DEVESQ            
+ E*X             MXCA              13.135R0        NOT DE        VI              ECM               NOT DEMXCB       7.288
+ R0E             VIE                     ELAB      12.084        MXCBIGA  -82.609R0ESQ                   VIESQ           
+ FITACCUR  0.1000MXCBIGB          -74.537RC        NOT DE        VPOLYORD        FITMODE                 MXCGA     13.135
+ RC0       NOT DEVSI                     FITMULTI      50        MXCGB      7.288RC0P              NOT DEVSO             
+ FITRATIO  0.1000MXCGBIGA         -82.609RC0T      NOT DE        VSOI            GAMMADIF                MXCGBIGB -81.712
+ RCP       NOT DEVTL                     GAMMAPHI  0.1000        MXCGP     NOT DERCT               NOT DEVTLI            
+ GAMMASUM        MXCGT             NOT DEREALPOWE                VTPR            IMAGPOWE                MXCGX      8.071
+ REINITIA        VTPRI                   INELASAC  0.1000        MXCX       8.071RI                NOT DEVTR             
+ IPARAM1   NOT DENAITKEN                 RI0       NOT DE        VTRI            IPARAM2           NOT DENBACK           
+ RI0E            WRITESTE          NOT DEIPARAM3   NOT DE        NCOSINE        2RI0ESQ                  ZA              
+ IPARAM4   NOT DENFIRSTOF                RSI       NOT DE        ZB              IPARAM5           NOT DENODES     NOT DE
+ RSI0      NOT DEZBIGA                   J         NOT DE        NPCOULOM        RSO               NOT DEZBIGB           
+ JA              NPDIF                   RSO0      NOT DE        ZP        NOT DEJB                     1NPHIADD         
+ RSOI      NOT DEZT                NOT DEJBIGA                   NPPHI           RSOI0             NOT DEZX              
+ JBIGB          1NPSUM                   RTL       NOT DE                        
+
+ THE FOLLOWING OPTIONS HAVE BEEN CHOSEN:
+
+    BATCH       BFACTORS    BLOCKREL    CMANGLES    COMPLEXW    DOASYMPT
+    ECHO        EPOWER      EPOWERS     FITV        FORMDERI    GALILEO 
+    LMCHOL      ME1STORD    NOCHECKA    NOELASTI    NOSAVEF     NOSAVEMX
+    NOSAVESI    NOSCRFIL    NOWRITEW    ONEPASS     POTNONRE    QUADRATI
+    R0TARGET    SUBBORN     SW1OFF      SW2OFF      SW3OFF      TARGET  
+    TRUEMASS    USECORE     USEPROJE    WOODSSAX
+             ---- NUMBERED STORAGE CATALOG ----
+0  NUMBER   NAME     LENGTH      START        END
+        3  VBOUND1     1001        2008       3010
+        5  PHI1        1001        4012       5014
+0               ALLOCATOR STATISTICS
+                                        WORDS   KILOBYTES
+ ALLOCATOR SIZE:                      6249990   48828.0
+ CURRENT UNCOMPRESSED SIZE:              6012      47.0
+ CURRENT COMPRESSED SIZE:                2004      15.7
+ PEAK COMPRESSED SIZE:                   6012      47.0
+0NAME STACK SIZE:                         500
+ CURRENT HIGHEST NAME:                      6
+ CURRENT NAMES IN USE:                      2
+ PEAK NAMES IN USE:                         6
+ NUMBER OF ALLOCATOR COMPRESSES:            0
+
+
