@@ -5,9 +5,11 @@ $JBIGA = 0 parbiga = +1
 REACTION:  88Rb(d,p)89Rb(0.0 3/2-)   ELAB = 12
 PARAMETERSET alpha2
 PROJECTILE
+assymptopia = 11
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
+assymptopia = 30
 NODES = 2
 R0 = 1.28   A=.76 L=0 
 VSO = 6   RSO0 = 1.09   ASO = .6
