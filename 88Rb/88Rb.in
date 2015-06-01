@@ -8,7 +8,7 @@ PROJECTILE
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
-NODES = 1 
+NODES = 2
 R0 = 1.28   A=.76 L=0 
 VSO = 6   RSO0 = 1.09   ASO = .6
 ;
@@ -38,7 +38,7 @@ $Proton potential calculated for Z=14 Ac=29 E_p=16.980000
 $Charge Radius
 RC0 = 1.319311
 $Real Volume Terms
-V = 51.547747 nodes=2
+V = 51.547747 
 R0 = 1.171947
 A = 0.673488
 $Imaginary Volume Terms
