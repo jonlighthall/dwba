@@ -2,62 +2,62 @@ reset
 print 0
 r0target
 $JBIGA = 0 parbiga = +1
-REACTION:  88Rb(d,p)89Rb(0.0 3/2-)   ELAB = 12
+REACTION:  88Rb(d,p)89Rb(0.0 3/2-)   ELAB = 12.084610
 PARAMETERSET alpha2
 PROJECTILE
 ASYMPTOPIA = 11
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
-ASYMPTOPIA = 30
-NODES = 2
+$ASYMPTOPIA = 30
+NODES = 1
 R0 = 1.28   A=.76 L=0 
 VSO = 6   RSO0 = 1.09   ASO = .6
 ;
 INCOMING
-$Deuteron potential calculated for Z=14 A=28 E_d=12.132380
+$Deuteron potential calculated for Z=37 A=88 E_d=12.084610
 $Charge Radius
 RC0 = 1.303000
 $Real Volume Terms
-V = 91.806012
-R0 = 1.149445
-A = 0.757261
+V = 94.198298
+R0 = 1.150255
+A = 0.775044
 $Imaginary Volume Terms
-VI = 1.858634
-RI0 = 1.337833
-AI = 0.551341
+VI = 1.855663
+RI0 = 1.327415
+AI = 0.410204
 $Imaginary Surface Terms
-VSI = 10.458749
-RSI0 = 1.384056
-ASI= 0.719269
+VSI = 10.460211
+RSI0 = 1.368173
+ASI= 0.806774
 $Real Spin-Orbit Terms
 VSO = 3.557000
 RSO0 = 0.972000
 ASO = 1.011000
 ;
 OUTGOING
-$Proton potential calculated for Z=14 Ac=29 E_p=16.980000
+$Proton potential calculated for Z=37 Ac=89 E_p=9.481725
 $Charge Radius
-RC0 = 1.319311
+RC0 = 1.240290
 $Real Volume Terms
-V = 51.547747 
-R0 = 1.171947
-A = 0.673488
+V = 58.271740
+R0 = 1.213100
+A = 0.664566
 $Imaginary Volume Terms
-VI = 1.463105
-RI0 = 1.171947
-AI = 0.673488
+VI = 0.635902
+RI0 = 1.213100
+AI = 0.664566
 $Imaginary Surface Terms
-VSI = 9.599430
-RSI0 = 1.293704
-ASI= 0.533795
+VSI = 13.001616
+RSI0 = 1.271634
+ASI= 0.565025
 $Real Spin-Orbit Terms
-VSO = 5.437432
-RSO0 = 0.974810
+VSO = 5.789942
+RSO0 = 1.040487
 ASO = 0.590000
 $Imaginary Spin-Orbit Terms
-VSOI = -0.073810
-RSOI0 = 0.974810
+VSOI = -0.033261
+RSOI0 = 1.040487
 ASOI = 0.590000
 ;
 ANGLEMAX = 90   anglestep = 1
