@@ -38,7 +38,7 @@ $Proton potential calculated for Z=14 Ac=29 E_p=16.980000
 $Charge Radius
 RC0 = 1.319311
 $Real Volume Terms
-V = 51.547747 node=2
+V = 51.547747 nodes=2
 R0 = 1.171947
 A = 0.673488
 $Imaginary Volume Terms
