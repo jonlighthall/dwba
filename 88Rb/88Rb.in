@@ -142,8 +142,8 @@ writens crosssec
 reset print 0 r0target
 $ The ground state of 88Rb has Jpi=2-
 JBigA = 2 ParBigA = -1 
-REACTION:  88Rb(d,p)89Rb   ELAB = 12.084610 $fishy
-JBigB = 3/2 ParBigB = -1 E*BigB = 6.27782
+REACTION:  88Rb(d,p)89Rb   ELAB = 12.084610
+JBigB = 3/2 ParBigB = -1 E*BigB = 6.72624
 PARAMETERSET alpha2
 PROJECTILE $deuteron bound state parameters
 $ASYMPTOPIA = 10
