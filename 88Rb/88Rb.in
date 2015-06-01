@@ -77,9 +77,76 @@ $ASYMPTOPIA = 10
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
-ASYMPTOPIA = 45
+$ASYMPTOPIA = 45
 NODES = 3
 R0 = 1.28   A=.76 L=1 jp=3/2
+VSO = 6   RSO0 = 1.09   ASO = .6
+;
+INCOMING
+$Deuteron potential calculated for Z=37 A=88 E_d=12.084610
+$Charge Radius
+RC0 = 1.303000
+$Real Volume Terms
+V = 94.198298
+R0 = 1.150255
+A = 0.775044
+$Imaginary Volume Terms
+VI = 1.855663
+RI0 = 1.327415
+AI = 0.410204
+$Imaginary Surface Terms
+VSI = 10.460211
+RSI0 = 1.368173
+ASI= 0.806774
+$Real Spin-Orbit Terms
+$VSO = 3.557000
+$RSO0 = 0.972000
+$ASO = 1.011000
+;
+OUTGOING
+$Proton potential calculated for Z=37 Ac=89 E_p=9.481725
+$Charge Radius
+RC0 = 1.240290
+$Real Volume Terms
+V = 58.271740
+R0 = 1.213100
+A = 0.664566
+$Imaginary Volume Terms
+VI = 0.635902
+RI0 = 1.213100
+AI = 0.664566
+$Imaginary Surface Terms
+VSI = 13.001616
+RSI0 = 1.271634
+ASI= 0.565025
+$Real Spin-Orbit Terms
+$VSO = 5.789942
+$RSO0 = 1.040487
+$ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+$VSOI = -0.033261
+$RSOI0 = 1.040487
+$ASOI = 0.590000
+;
+ANGLEMAX = 180   anglestep = 1
+;
+writens crosssec
+
+reset
+print 0
+r0target
+$The ground state of 88Rb has Jpi=2-
+$JBIGA = 2 parbiga = -1 
+REACTION:  88Rb(d,p)89Rb(7.174655 3/2)   ELAB = 12.084610
+PARAMETERSET alpha2
+PROJECTILE $deuteron bound state parameters
+$ASYMPTOPIA = 10
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
+;
+TARGET
+$ASYMPTOPIA = 45
+NODES = 1
+R0 = 1.28   A=.76 L=2 
 VSO = 6   RSO0 = 1.09   ASO = .6
 ;
 INCOMING
