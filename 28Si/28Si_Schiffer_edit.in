@@ -77,9 +77,9 @@ V = 91.806012
 R0 = 1.149445
 A = 0.757261
 $Imaginary Volume Terms
-VI = 1.858634
-RI0 = 1.337833
-AI = 0.551341
+$VI = 1.858634
+$RI0 = 1.337833
+$AI = 0.551341
 $Imaginary Surface Terms
 VSI = 10.458749
 RSI0 = 1.384056
