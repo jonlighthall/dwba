@@ -10,7 +10,7 @@ R = 1  A = 0.5  WAVEFUNCTION = REID L = 0
 ;
 TARGET
 $ASYMPTOPIA = 40
-NODES = 1
+NODES = 3
 R0 = 1.28   A=.76 L=0 
 VSO = 6   RSO0 = 1.09   ASO = .6
 ;
