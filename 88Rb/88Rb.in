@@ -2,7 +2,7 @@ reset
 print 0
 r0target
 $JBIGA = 0 parbiga = +1
-REACTION:   28Si(d,p)29Si(0.0 1/2+)   ELAB = 12
+REACTION:  88Rb(d,p)89Rb(0.0 3/2-)   ELAB = 12
 PARAMETERSET alpha2
 PROJECTILE
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
