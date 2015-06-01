@@ -5,7 +5,7 @@ $JBIGA = 0 parbiga = +1
 REACTION:  88Rb(d,p)89Rb(7.174655 3/2)   ELAB = 12.084610
 PARAMETERSET alpha2
 PROJECTILE $deuteron bound state parameters
-$ASYMPTOPIA = 11.42
+ASYMPTOPIA = 11.42
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
