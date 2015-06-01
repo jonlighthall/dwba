@@ -37,7 +37,7 @@ R = 1  A = 0.5  WAVEFUNCTION = REID L = 0
 ;
 TARGET
 ASYMPTOPIA = 30 $added
-NODES = 0 L=2 $nodes edited
+NODES = 1 L=2 $nodes un-edited
 R0 = 1.28   A=.76 VSO = 6
 RSO0 = 1.09   ASO = .6
 ;
