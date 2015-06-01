@@ -14,7 +14,7 @@ VSO = 6   RSO0 = 1.09   ASO = .6
 ;
 INCOMING
 V=103  r0=1.0  a=.943
-Vsi=29.6  rsi0=1.501  asi=.527c
+Vsi=29.6  rsi0=1.501  asi=.527
 RC0=1.25
 ;
 OUTGOING
