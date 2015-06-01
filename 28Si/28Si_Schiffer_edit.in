@@ -110,9 +110,9 @@ VSO = 5.437432
 RSO0 = 0.974810
 ASO = 0.590000
 $Imaginary Spin-Orbit Terms
-VSOI = -0.073810
-RSOI0 = 0.974810
-ASOI = 0.590000
+$VSOI = -0.073810 negative potential not allowd? may indicate this potential shoudl be excluded
+$RSOI0 = 0.974810
+$ASOI = 0.590000
 ;
 ANGLEMAX = 90   anglestep = 1
 ;
