@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  201728.078
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  201900.736
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  201728.078
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  201900.737
 
 0INPUT... print 0
 0INPUT... r0target
@@ -21,14 +21,10 @@
  CURRENT ALLOCATOR SIZE =    6249990 words          BIASES =    136707280   136707264           3
 0INPUT... TARGET
 0INPUT... $ASYMPTOPIA = 40
-0INPUT... NODES = 1
+0INPUT... NODES = 3
 0INPUT... R0 = 1.28   A=.76 L=0
 0INPUT... VSO = 6   RSO0 = 1.09   ASO = .6
 0INPUT... ;
- FOR V =   62.90,  E =   0.00, WAVEFUNCTION HAS  3 NODES BUT  1 ARE DESIRED.
- WILL TRY A NEW V:      30.000    
- FOR V =   33.32,  E =   0.00, WAVEFUNCTION HAS  2 NODES BUT  1 ARE DESIRED.
- WILL TRY A NEW V:      15.000    
 0INPUT... INCOMING
 0INPUT... $Deuteron potential calculated for Z=37 A=88 E_d=12.084610
 0INPUT... $Charge Radius
