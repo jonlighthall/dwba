@@ -1,7 +1,7 @@
 reset
 print 0
 r0target
-JBIGA = 0 parbiga = +1
+$JBIGA = 0 parbiga = +1
 REACTION:   28Si(d,p)29Si(0.0 1/2+)   ELAB = 12
 PARAMETERSET alpha2
 PROJECTILE
