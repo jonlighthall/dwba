@@ -106,15 +106,14 @@ VSI = 9.599430
 RSI0 = 1.293704
 ASI= 0.533795
 $Real Spin-Orbit Terms
-VSO = 5.437432
-RSO0 = 0.974810
-ASO = 0.590000
+$VSO = 5.437432
+$RSO0 = 0.974810
+$ASO = 0.590000
 $Imaginary Spin-Orbit Terms
-VSOI = -0.073810 
-RSOI0 = 0.974810
-ASOI = 0.590000
+$VSOI = -0.073810 
+$RSOI0 = 0.974810
+$ASOI = 0.590000
 ;
-VPOLYORDER = 4
 ANGLEMAX = 90   anglestep = 1
 ;
 writens crosssec
