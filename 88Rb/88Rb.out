@@ -1,9 +1,9 @@
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  184232.075
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  184401.301
 
 0INPUT... reset
                                                  P T O L E M Y
- April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  184232.076
+ April 2007 version     Computer: Intel Pentium, Redhat Linux  ladd19.triumf.ca          31 May 15  184401.302
 
 0INPUT... print 0
 0INPUT... r0target
@@ -11,141 +11,663 @@
 0INPUT... REACTION:  88Rb(d,p)89Rb(0.0 3/2-)   ELAB = 12
 0INPUT... PARAMETERSET alpha2
 0INPUT... PROJECTILE
-0INPUT... assymptopia = 11
-0**** MISSPELLED KEYWORD: ASSYMPTO
+0INPUT... ASYMPTOPIA = 11
+0INPUT... R = 1  A = 0.5  WAVEFUNCTION = REID L = 0
+ LINKULE REID     IS LINKULE NUMBER/location       7
+0INPUT... ;
+0FIXED COMMON BLOCK VERSION OF PTOLEMY,  ALLOCATOR SIZE =  6249990 WORDS.
 
- DATA ENTERING KEYWORDS ARE:
+ Check of LOC:   136707280   136707280
+ CURRENT ALLOCATOR SIZE =    6249990 words          BIASES =    136707280   136707264           3
+0INPUT... TARGET
+0INPUT... ASYMPTOPIA = 30
+0INPUT... NODES = 2
+0INPUT... R0 = 1.28   A=.76 L=0
+0INPUT... VSO = 6   RSO0 = 1.09   ASO = .6
+0INPUT... ;
+0INPUT... INCOMING
+0INPUT... $Deuteron potential calculated for Z=14 A=28 E_d=12.132380
+0INPUT... $Charge Radius
+0INPUT... RC0 = 1.303000
+0INPUT... $Real Volume Terms
+0INPUT... V = 91.806012
+0INPUT... R0 = 1.149445
+0INPUT... A = 0.757261
+0INPUT... $Imaginary Volume Terms
+0INPUT... VI = 1.858634
+0INPUT... RI0 = 1.337833
+0INPUT... AI = 0.551341
+0INPUT... $Imaginary Surface Terms
+0INPUT... VSI = 10.458749
+0INPUT... RSI0 = 1.384056
+0INPUT... ASI= 0.719269
+0INPUT... $Real Spin-Orbit Terms
+0INPUT... VSO = 3.557000
+0INPUT... RSO0 = 0.972000
+0INPUT... ASO = 1.011000
+0INPUT... ;
+0INPUT... OUTGOING
+0INPUT... $Proton potential calculated for Z=14 Ac=29 E_p=16.980000
+0INPUT... $Charge Radius
+0INPUT... RC0 = 1.319311
+0INPUT... $Real Volume Terms
+0INPUT... V = 51.547747
+0INPUT... R0 = 1.171947
+0INPUT... A = 0.673488
+0INPUT... $Imaginary Volume Terms
+0INPUT... VI = 1.463105
+0INPUT... RI0 = 1.171947
+0INPUT... AI = 0.673488
+0INPUT... $Imaginary Surface Terms
+0INPUT... VSI = 9.599430
+0INPUT... RSI0 = 1.293704
+0INPUT... ASI= 0.533795
+0INPUT... $Real Spin-Orbit Terms
+0INPUT... VSO = 5.437432
+0INPUT... RSO0 = 0.974810
+0INPUT... ASO = 0.590000
+0INPUT... $Imaginary Spin-Orbit Terms
+0INPUT... VSOI = -0.073810
+0INPUT... RSOI0 = 0.974810
+0INPUT... ASOI = 0.590000
+0INPUT... ;
+0INPUT... ANGLEMAX = 90   anglestep = 1
+0INPUT... ;
+1                                                          P T O L E M Y
+          COMPUTATION OF TRANSFER S-MATRIX ELEMENTS                                           WHEELS WITHIN WHEELS
+088Rb(d,p)89Rb(0.0 3/2-)                      ELAB =  12.00 MEV                                                                      
 
-    A           FITMODE     MAPDIF      PARA        RC0P        STEP1I  
-    ACCURACY    FITMULTI    MAPPHI      PARAM1      RC0T        STEP1R  
-    AE          FITRATIO    MAPSUM      PARAM10     RCP         STEPSIZE
-    AESQ        GAMMADIF    MAXCOULI    PARAM11     RCT         STEPSPER
-    AI          GAMMAPHI    MAXFUNCT    PARAM12     REALPOWE    SUMMAX  
-    AIE         GAMMASUM    MAXITER     PARAM13     REINITIA    SUMMID  
-    AIESQ       IMAGPOWE    MAXLEXTR    PARAM14     RI          SUMMIN  
-    ANGLEMAX    INELASAC    MB          PARAM15     RI0         SUMPOINT
-    ANGLEMIN    IPARAM1     MBIGA       PARAM16     RI0E        TAU     
-    ANGLESTE    IPARAM2     MBIGB       PARAM17     RI0ESQ      TAUI    
-    ASI         IPARAM3     MIDMULT     PARAM18     RSI         V       
-    ASO         IPARAM4     MP          PARAM19     RSI0        VE      
-    ASOI        IPARAM5     MT          PARAM2      RSO         VESQ    
-    ASYMPTOP    J           MX          PARAM20     RSO0        VI      
-    ATL         JA          MXCA        PARAM3      RSOI        VIE     
-    ATLI        JB          MXCB        PARAM4      RSOI0       VIESQ   
-    ATPR        JBIGA       MXCBIGA     PARAM5      RTL         VPOLYORD
-    ATPRI       JBIGB       MXCBIGB     PARAM6      RTL0        VSI     
-    ATR         JP          MXCGA       PARAM7      RTLI        VSO     
-    ATRI        JPARAM1     MXCGB       PARAM8      RTLI0       VSOI    
-    BLOCKSIZ    JPARAM2     MXCGBIGA    PARAM9      RTPR        VTL     
-    BOUNDASY    JPARAM3     MXCGBIGB    PARB        RTPR0       VTLI    
-    COULOMBM    JX          MXCGP       PARBIGA     RTPRI       VTPR    
-    DELTAVK     L           MXCGT       PARBIGB     RTPRI0      VTPRI   
-    DERIVSTE    LBACK       MXCGX       PARITY      RTR         VTR     
-    DWCUTOFF    LEPSBACK    MXCX        PARP        RTR0        VTRI    
-    E           LMAX        NAITKEN     PART        RTRI        WRITESTE
-    E*A         LMAXADD     NBACK       PARX        RTRI0       ZA      
-    E*B         LMAXMULT    NCOSINE     PHIMID      SCATASYM    ZB      
-    E*BIGA      LMIN        NFIRSTOF    PRINT       SIZE        ZBIGA   
-    E*BIGB      LMINMULT    NODES       Q           SP          ZBIGB   
-    E*P         LMINSUB     NPCOULOM    R           SPAM        ZP      
-    E*T         LOOKSTEP    NPDIF       R0          SPAMP       ZT      
-    E*X         LSTEP       NPHIADD     R0E         SPAMT       ZX      
-    ECM         LX          NPPHI       R0ESQ       SPFACP              
-    ELAB        M           NPSUM       RC          SPFACT              
-    FITACCUR    MA          NUMRANDO    RC0         ST                  
+0TIME IN A12                        0.000 SEC
+ IN PHI & A12 LOOP                  0.035 SEC
+ INTERPOLATING H'S                  0.004 SEC
+ COMPUTING SCATTERING WAVES         0.000 SEC
+ INTERPOLATING SCATTERING WAVES     0.003 SEC
+ REST OF RI & RO LOOP               0.002 SEC
+ REST OF LO LOOP                    0.000 SEC
+ ALL OTHER TIME                     0.000 SEC
+ TOTAL TIME                         0.044 SEC
+ NUMBER OF CALLS TO second           3352 CALLS
+ 
+     4116000 PASSES WERE MADE THROUGH THE INNERMOST LOOP;        AVERAGE TERM TIME =    0.009 MICROSECONDS
+     4116000 ITERATIONS OF COS(ARG-MU*PHI) WERE MADE;          AVERAGE COSINE TIME =    0.009 MICROSECONDS
+      567000 PASSES WERE MADE THROUGH THE (M1, M2) LOOP
+      567000 PASSES WERE MADE THE PHI LOOP
+       40500 H'S WERE COMPUTED OR READ                              AVERAGE H TIME =    0.001 MILLISECONDS
+       40500 H'S WERE FOUND BY INTERPOLATION          AVERAGE H-INTERPOLATION TIME =    0.099 MICROSECONDS
+        0.00% OF THE (RI,RO) POINTS WERE SKIPPED DUE TO DWCUTOFF.
 
- THE FOLLOWING KEYWORDS MAY BE USED TO SELECT OPTIONS:
 
-    ABSOLUTE    BATCH       BFACTORS    BLOCKREL    BOUNDSTA    CCINELAS
-    CHECKASY    CHECKDER    CMANGLES    COMPLEXW    COUPLE2     CROSSSEC
-    DAVIDON     DERIVCHE    DOASYMPT    DOTEMP1     DOTEMP2     DOTEMP3 
-    DWBA        ECHO        EINVERSE    ELASTIC     EPOWER      EPOWERS 
-    FITE        FITELAST    FITTER10    FITTER11    FITTER12    FITTER13
-    FITV        FITZGERA    FLOATNUM    FORMASIS    FORMDERI    GALILEO 
-    GRIDSETU    INCOMING    INELASTI    INTEGERM    INTERACT    LABANGLE
-    LEXTRAP5    LEXTRAP6    LINEAR      LINTERPO    LMCHOL      LMGENV  
-    LPOWER      LPOWER2     ME1STORD    ME2NDORD    MINIM       MULTIPAS
-    NEXTPASS    NOBFACTO    NOCHECKA    NOECHO      NOELASTI    NOSAVEF 
-    NOSAVEMX    NOSAVESI    NOSCRFIL    NOSUBBOR    NOWRITEW    NUCONLY 
-    NZRDWBA     OCOPTR      ONEPASS     OUTGOING    POTNONRE    POTRELAT
-    POWELL65    PROJECTI    QUADRATI    QUAVER      R0DEFAUL    R0MTOT  
-    R0SUM       R0TARGET    RADIALIN    REALWAVE    RELATIVE    ROCORD  
-    SAVEF       SAVEMXCR    SAVEPITE    SAVESITE    SAVESPIT    SCATTERI
-    SCRFILE     SKIPASYM    SUBBORN     SW1OFF      SW1ON       SW2OFF  
-    SW2ON       SW3OFF      SW3ON       TARGET      TRUEMASS    USECORE 
-    USECOULO    USEPROJE    USESIMPC    USETARGE    WKBEXTRA    WOODSSAX
-    WRITEELA    WRITEITE    WRITEWAV    WRTELAIT
+1                                                          P T O L E M Y
+                                               INTERPOLATION AND EXTRAPOLATION IN L
+088Rb(d,p)89Rb(0.0 3/2-)                      ELAB =  12.00 MEV                                                                      
 
- THE FOLLOWING ARE COMMAND KEYWORDS:
+0USING WOODS-SAXON     EXTRAPOLATION FUNCTIONS.
+0EXTRAPOLATION AND CONTINUED FRACTION OVERLAP REGION:  23 < LI <  26
 
-    ALLOCATE    BELX        BETA        BETACOUL    BETAP       BETAT   
-    BIMULT      CALLTSO     CCDUMP      CHANNEL     CHANNELS    CLEAR   
-    COPY        COULOMBP    COUPLING    DATA        DUMP        DUMPALL 
-    DUMPHEX     DUMPI2      DUMPI4      DUMPR4      DUMPR8      FIT     
-    FREE        GET         HEADER      IMAGPOTE    IMAGSOPO    IMAGTLPO
-    IMAGTPRP    IMAGTRPO    KEEP        KEYWORDS    LISTKEYS    NEWPAGE 
-    NRNLIMS     NSCATALO    NSSTATUS    NUMRNUM     PARAMETE    PRINTFIT
-    PRINTWAV    REACTION    REALPOTE    REALSOPO    REALTLPO    REALTPRP
-    REALTRPO    RENAME      RESET       RETURN      SAVEHS      SIPOTENT
-    TIMELIMI    TRANSIST    UNDEFINE    USEHS       WAVEFUNC    WRITENS 
-    WRITENS4    WRITENS8
+0**** WARNING:  PHASE OF S(L) FOR CHANNEL  2  (JP,JT,LX,LO-LI,LI) = (  1/2  1/2  0   0  24) HAS FLUCTUATING SIGN
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  1/2  1/2 1  0) ****
+ ****         SINCE FOR LI =  24 |S| EXCEEDS PREVIOUS: 0.1577E-14 0.1504E-14 ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 1  0) ****
+ ****         SINCE FOR LI =  24 |S| EXCEEDS PREVIOUS: 0.1456E-14 0.1314E-14 ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2 -2) ****
+ ****         SINCE FOR LI =  24 |S| EXCEEDS PREVIOUS:  0.000      0.000     ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2 -2) ****
+ ****         SINCE FOR LI =  25 |S| EXCEEDS PREVIOUS:  0.000      0.000     ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2 -2) ****
+ ****         SINCE FOR LI =  26 |S| EXCEEDS PREVIOUS:  0.000      0.000     ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2  0) ****
+ ****         SINCE FOR LI =  26 |S| EXCEEDS PREVIOUS: 0.5943E-16 0.3110E-16 ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2  2) ****
+ ****         SINCE FOR LI =  24 |S| EXCEEDS PREVIOUS:  0.000      0.000     ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2  2) ****
+ ****         SINCE FOR LI =  25 |S| EXCEEDS PREVIOUS:  0.000      0.000     ****
+0**** ERROR:  CANNOT EXTRAPOLATE FOR CHANNEL  2  (JP,JT,LX,LO-LI) = (  3/2  1/2 2  2) ****
+ ****         SINCE FOR LI =  26 |S| EXCEEDS PREVIOUS:  0.000      0.000     ****
+0**** WARNING:  FOR (2*JP,2*JT,LX,LO-LI) = (  3  1  2 -2)    LPEAK =  26 IS AT END OF L-RANGE (FISHY) ***
+0**** WARNING:  FOR (2*JP,2*JT,LX,LO-LI) = (  3  1  2  2)    LPEAK =  26 IS AT END OF L-RANGE (FISHY) ***
 
- THE FOLLOWING ARE SYNONUMS FOR STANDARD PTOLEMY KEYWORDS
+0                                               SUMMARY OF EXTRAPOLATION PARAMETERS
+0                   |S| = A/( C + EXP( (LI-LCRIT)/LWIDTH ) )           PHASE = CP + AP*(SUM OF ELASTIC PHASE-SHIFTS)
+                OR      = A*(   26./L)**B * (1+LCRIT/L)                      = CP + AP*(   26./L)**BP
+                OR      = ABOVE * SIN(ATAN(ETA/L))**LX
+                          * EXP(-(ETA2-ETA1)(ATAN(ETA/L)+L/ETA))
+0CHANNEL   JP   JT  LX LO-LI     PEAK         MAX L                 MAGNITUDE EXTRAPOLATION                PHASE EXTRAPOLATION
+                              LI     VALUE     USED          A         C    LWIDTH    LCRIT   MAX L         CP        AP        BP
+                                                                            OR B              NEEDED
 
- SYNONUM   KEYWORD      SYNONUM   KEYWORD      SYNONUM   KEYWORD
+    2     1/2  1/2  0    0     0    0.103        26      0.40928E-05   1     0.858    22.1        22        1.571  -774.151     0.000
+    2     1/2  1/2  1    0     4    0.968E-02    26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
+    2     3/2  1/2  1    0     4    0.178E-01    26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
+    2     3/2  1/2  2   -2    26     0.00        26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
+    2     3/2  1/2  2    0     5    0.930E-03    26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
+    2     3/2  1/2  2    2    26     0.00        26       0.0000       0     0.000    0.00         0        0.000     0.000     0.000
+0 TIME FOR L-INTERPOLATIONS :   0.000 SECONDS
 
- ANPASSEN  FIT          KANAL     CHANNEL      REELLEWE  REALWAVE
- AR        A            KERNEINZ  NUCONLY      RR        R       
- AUSGANG   OUTGOING     KNOTEN    NODES        RR0       R0      
- BE        BELX         LABWINKE  LABANGLE     SCHLUESS  KEYWORDS
- BE2       BELX         LMAXHINZ  LMAXADD      SCHREIBS  WRITESTE
- BESTIMMU  DATA         LMAXVERM  LMAXMULT     SCHRITTE  STEPSPER
- BETANUCL  BETA         LMINABZI  LMINSUB      SCHRITTL  STEPSIZE
- BETAPROJ  BETAP        LMINSUBT  LMINSUB      STEUASYM  SCATASYM
- BETATARG  BETAT        LMINVERM  LMINMULT     STOP      RETURN  
- DRUCKEN   PRINT        LSCHRITT  LSTEP        STREUUNG  SCATTERI
- DUMP4     DUMPR4       MAXITERA  MAXITER      SUMMEPUN  SUMPOINT
- DUMP8     DUMPR8       MITCOULO  USECOULO     TITLE     HEADER  
- DUMPHEXA  DUMPHEX      MITKERNG  USECORE      TRANSITI  TRANSIST
- DUMPINTE  DUMPI4       MITPROJE  USEPROJE     TSO       INTERACT
- DUMPOCTA  DUMPHEX      MITWURFG  USEPROJE     UEBERSCH  HEADER  
- DWENDPUN  DWCUTOFF     MITZIELS  USETARGE     VERLASSE  QUIT    
- EINGANG   INCOMING     NAMEN     NSCATALO     VR        V       
- EINLAGER  SAVEHS       NAMES     NSCATALO     W         VI      
- ELASTISC  ELASTIC      NSDUMP    DUMPR8       WINKELMA  ANGLEMAX
- END       RETURN       PASSENGE  FITACCUR     WINKELMI  ANGLEMIN
- ENDE      QUIT         PASSENVE  FITRATIO     WINKELSC  ANGLESTE
- GEBRAUCH  USEHS        PROJEKTI  PROJECTI     WURFGESC  PROJECTI
- GEBUNDAS  BOUNDASY     QUIT      RETURN       ZIELSCHE  TARGET  
- GENAUIGK  ACCURACY     REAKTION  REACTION     ZUTEILEN  ALLOCATE
- IMAGHOCH  IMAGPOWE     REELLEHO  REALPOWE                       
+1                                                      P T O L E M Y
+          COMPUTATION OF CROSS SECTIONS                                      SOPHISTICATED PROGRAMS CONTAIN SUBTLE ERRORS
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
 
- THE FOLLOWING ARE SYNONUMS FOR STANDARD PTOLEMY KEYWORDS
+0  C.M.  REACTION     REACTION   LOW L  HIGH L   % FROM
++                                                          INCOMING ELASTIC      OUTGOING    REACTION      REACTION      REACTION
+  ANGLE  C.M. MB        /RUTH     %/L   % ERROR  L>LMAX
++                                                          C.M. MB      /RUTH      /RUTH
++                                                                                             LX = 0        LX = 1        LX = 2
+ 
+   0.00   29.382      0.000000   -4.81    0.00     0.0   0.12892E+42  1.000000    1.000000    29.382        0.0000       0.15640E-04
+   1.00   29.147      0.000000   -4.83    0.00     0.0   0.22220E+10  0.999562    0.999479    29.147       0.68309E-04   0.15590E-04
+   2.00   28.451      0.000000   -4.91    0.00     0.0   0.13925E+09  1.002124    0.994704    28.451       0.27187E-03   0.15443E-04
+   3.00   27.319      0.000001   -5.03    0.00     0.0   0.27538E+08  1.003003    1.004418    27.319       0.60664E-03   0.15202E-04
+   4.00   25.793      0.000004   -5.21    0.00     0.0   0.86093E+07  0.990697    1.024567    25.792       0.10660E-02   0.14877E-04
+   5.00   23.928      0.000010   -5.46    0.00     0.0   0.35018E+07  0.983327    1.042193    23.926       0.16409E-02   0.14478E-04
+   6.00   21.790      0.000018   -5.78    0.00     0.0   0.17041E+07  0.991739    1.048007    21.788       0.23201E-02   0.14021E-04
+   7.00   19.454      0.000030   -6.18    0.00     0.0   0.93933E+06  1.012076    1.038295    19.451       0.30907E-02   0.13520E-04
+   8.00   16.999      0.000044   -6.70    0.00     0.0   0.56315E+06  1.034324    1.013628    16.995       0.39380E-02   0.12994E-04
+   9.00   14.505      0.000061   -7.35    0.00     0.0   0.35714E+06  1.049810    0.977137    14.500       0.48465E-02   0.12462E-04
+ 
+  10.00   12.050      0.000077   -8.18    0.00     0.0   0.23553E+06  1.054213    0.933095    12.044       0.57997E-02   0.11944E-04
+  11.00   9.7074      0.000090   -9.25    0.00     0.0   0.16001E+06  1.047435    0.885943    9.7006       0.67809E-02   0.11458E-04
+  12.00   7.5403      0.000099  -10.65    0.00     0.0   0.11145E+06  1.032120    0.839675    7.5325       0.77735E-02   0.11024E-04
+  13.00   5.6018      0.000101  -12.53    0.00     0.0    79443.      1.012004    0.797520    5.5931       0.87616E-02   0.10661E-04
+  14.00   3.9325      0.000096  -15.12    0.00     0.0    57896.      0.990643    0.761800    3.9228       0.97298E-02   0.10383E-04
+  15.00   2.5592      0.000082  -18.85    0.00     0.0    43111.      0.970664    0.733938    2.5485       0.10664E-01   0.10204E-04
+  16.00   1.4949      0.000062  -24.52    0.00     0.0    32764.      0.953489    0.714528    1.4833       0.11552E-01   0.10137E-04
+  17.00  0.73925      0.000039  -33.63    0.00     0.0    25372.      0.939397    0.703464   0.72685       0.12384E-01   0.10189E-04
+  18.00  0.27961      0.000018  -48.45    0.00     0.0    19972.      0.927784    0.700084   0.26645       0.13150E-01   0.10366E-04
+  19.00  0.92595E-01  0.000008  -62.09    0.00     0.0    15940.      0.917499    0.703316   0.78739E-01   0.13845E-01   0.10668E-04
+ 
+  20.00  0.14617      0.000015  -22.45    0.00     0.0    12862.      0.907182    0.711822   0.13170       0.14463E-01   0.11095E-04
+  21.00  0.40194      0.000049   18.89    0.00     0.0    10468.      0.895537    0.724127   0.38693       0.15004E-01   0.11641E-04
+  22.00  0.81754      0.000120   25.42    0.00     0.0    8573.4      0.881538    0.738724   0.80206       0.15468E-01   0.12297E-04
+  23.00   1.3490      0.000235   24.10    0.00     0.0    7054.5      0.864535    0.754166    1.3331       0.15857E-01   0.13054E-04
+  24.00   1.9530      0.000403   21.96    0.00     0.0    5824.9      0.844296    0.769135    1.9368       0.16176E-01   0.13896E-04
+  25.00   2.5887      0.000627   20.13    0.00     0.0    4822.7      0.820980    0.782490    2.5722       0.16433E-01   0.14807E-04
+  26.00   3.2194      0.000909   18.71    0.00     0.0    4002.8      0.795071    0.793297    3.2027       0.16634E-01   0.15770E-04
+  27.00   3.8135      0.001249   17.65    0.00     0.0    3330.6      0.767280    0.800847    3.7967       0.16791E-01   0.16763E-04
+  28.00   4.3458      0.001642   16.87    0.00     0.0    2779.2      0.738446    0.804652    4.3289       0.16914E-01   0.17768E-04
+  29.00   4.7971      0.002080   16.31    0.00     0.0    2327.1      0.709436    0.804439    4.7801       0.17014E-01   0.18763E-04
+ 
+  30.00   5.1547      0.002551   15.92    0.00     0.0    1956.6      0.681057    0.800127    5.1376       0.17106E-01   0.19729E-04
+  31.00   5.4118      0.003045   15.67    0.00     0.0    1653.0      0.653995    0.791805    5.3946       0.17201E-01   0.20645E-04
+  32.00   5.5670      0.003545   15.54    0.00     0.0    1404.2      0.628767    0.779698    5.5497       0.17312E-01   0.21494E-04
+  33.00   5.6237      0.004036   15.51    0.00     0.0    1200.0      0.605700    0.764139    5.6062       0.17450E-01   0.22261E-04
+  34.00   5.5886      0.004504   15.56    0.00     0.0    1032.0      0.584931    0.745538    5.5709       0.17628E-01   0.22931E-04
+  35.00   5.4716      0.004935   15.67    0.00     0.0    893.05      0.566420    0.724347    5.4537       0.17856E-01   0.23495E-04
+  36.00   5.2841      0.005315   15.84    0.00     0.0    777.55      0.549986    0.701039    5.2660       0.18141E-01   0.23946E-04
+  37.00   5.0389      0.005634   16.06    0.00     0.0    680.81      0.535337    0.676082    5.0204       0.18492E-01   0.24279E-04
+  38.00   4.7488      0.005885   16.30    0.00     0.0    599.11      0.522119    0.649922    4.7299       0.18913E-01   0.24494E-04
+  39.00   4.4263      0.006062   16.55    0.00     0.0    529.49      0.509953    0.622967    4.4069       0.19407E-01   0.24597E-04
+ 
+1                                                      P T O L E M Y
+          COMPUTATION OF CROSS SECTIONS                                      SOPHISTICATED PROGRAMS CONTAIN SUBTLE ERRORS
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
 
- SYNONUM   KEYWORD      SYNONUM   KEYWORD      SYNONUM   KEYWORD
+0  C.M.  REACTION     REACTION   LOW L  HIGH L   % FROM
++                                                          INCOMING ELASTIC      OUTGOING    REACTION      REACTION      REACTION
+  ANGLE  C.M. MB        /RUTH     %/L   % ERROR  L>LMAX
++                                                          C.M. MB      /RUTH      /RUTH
++                                                                                             LX = 0        LX = 1        LX = 2
+ 
+  40.00   4.0831      0.006163   16.80    0.00     0.0    469.62      0.498476    0.595581    4.0631       0.19975E-01   0.24593E-04
+  41.00   3.7297      0.006188   17.02    0.00     0.0    417.70      0.487373    0.568079    3.7090       0.20615E-01   0.24496E-04
+  42.00   3.3751      0.006140   17.20    0.00     0.0    372.36      0.476403    0.540728    3.3538       0.21324E-01   0.24319E-04
+  43.00   3.0271      0.006024   17.29    0.00     0.0    332.54      0.465412    0.513751    3.0050       0.22095E-01   0.24081E-04
+  44.00   2.6917      0.005847   17.25    0.00     0.0    297.43      0.454341    0.487336    2.6687       0.22920E-01   0.23803E-04
+  45.00   2.3734      0.005615   17.05    0.00     0.0    266.42      0.443221    0.461640    2.3496       0.23789E-01   0.23509E-04
+  46.00   2.0758      0.005337   16.61    0.00     0.0    239.03      0.432167    0.436807    2.0511       0.24688E-01   0.23222E-04
+  47.00   1.8010      0.005022   15.87    0.00     0.0    214.86      0.421357    0.412971    1.7753       0.25606E-01   0.22971E-04
+  48.00   1.5503      0.004680   14.75    0.00     0.0    193.60      0.411013    0.390271    1.5237       0.26526E-01   0.22781E-04
+  49.00   1.3242      0.004320   13.14    0.00     0.0    174.97      0.401378    0.368861    1.2967       0.27434E-01   0.22680E-04
+ 
+  50.00   1.1227      0.003950   10.94    0.00     0.0    158.69      0.392690    0.348910    1.0944       0.28314E-01   0.22693E-04
+  51.00  0.94534      0.003582    8.04    0.00     0.0    144.55      0.385161    0.330614   0.91617       0.29150E-01   0.22844E-04
+  52.00  0.79138      0.003224    4.35    0.00     0.0    132.29      0.378957    0.314190   0.76143       0.29927E-01   0.23155E-04
+  53.00  0.65989      0.002885   -0.20    0.00     0.0    121.70      0.374180    0.299883   0.62923       0.30632E-01   0.23645E-04
+  54.00  0.54984      0.002576   -5.57    0.00     0.0    112.55      0.370858    0.287952   0.51857       0.31251E-01   0.24328E-04
+  55.00  0.46017      0.002307  -11.58    0.00     0.0    104.63      0.368941    0.278671   0.42837       0.31774E-01   0.25216E-04
+  56.00  0.38977      0.002088  -17.87    0.00     0.0    97.739      0.368296    0.272315   0.35755       0.32192E-01   0.26315E-04
+  57.00  0.33752      0.001930  -23.92    0.00     0.0    91.696      0.368718    0.269148   0.30499       0.32499E-01   0.27625E-04
+  58.00  0.30229      0.001842  -29.13    0.00     0.0    86.327      0.369936    0.269413   0.26957       0.32692E-01   0.29142E-04
+  59.00  0.28290      0.001835  -33.01    0.00     0.0    81.481      0.371628    0.273314   0.25010       0.32770E-01   0.30855E-04
+ 
+  60.00  0.27814      0.001917  -35.28    0.00     0.0    77.027      0.373436    0.281008   0.24537       0.32734E-01   0.32750E-04
+  61.00  0.28669      0.002098  -35.99    0.00     0.0    72.854      0.374991    0.292585   0.25407       0.32591E-01   0.34805E-04
+  62.00  0.30718      0.002384  -35.39    0.00     0.0    68.873      0.375925    0.308064   0.27480       0.32346E-01   0.36994E-04
+  63.00  0.33812      0.002780  -33.85    0.00     0.0    65.018      0.375895    0.327376   0.30607       0.32011E-01   0.39288E-04
+  64.00  0.37795      0.003287  -31.73    0.00     0.0    61.240      0.374597    0.350361   0.34632       0.31596E-01   0.41650E-04
+  65.00  0.42501      0.003907  -29.33    0.00     0.0    57.509      0.371788    0.376763   0.39385       0.31116E-01   0.44044E-04
+  66.00  0.47756      0.004635  -26.87    0.00     0.0    53.812      0.367289    0.406230   0.44693       0.30587E-01   0.46429E-04
+  67.00  0.53382      0.005464  -24.49    0.00     0.0    50.148      0.361002    0.438313   0.50375       0.30022E-01   0.48763E-04
+  68.00  0.59201      0.006385  -22.26    0.00     0.0    46.529      0.352908    0.472474   0.56252       0.29440E-01   0.51003E-04
+  69.00  0.65035      0.007383  -20.22    0.00     0.0    42.972      0.343076    0.508099   0.62144       0.28856E-01   0.53108E-04
+ 
+  70.00  0.70711      0.008442  -18.39    0.00     0.0    39.502      0.331648    0.544501   0.67877       0.28286E-01   0.55038E-04
+  71.00  0.76068      0.009541  -16.75    0.00     0.0    36.147      0.318845    0.580947   0.73288       0.27743E-01   0.56755E-04
+  72.00  0.80954      0.010659  -15.30    0.00     0.0    32.935      0.304945    0.616664   0.78224       0.27242E-01   0.58225E-04
+  73.00  0.85237      0.011770  -14.02    0.00     0.0    29.893      0.290280    0.650867   0.82552       0.26791E-01   0.59419E-04
+  74.00  0.88804      0.012849  -12.90    0.00     0.0    27.048      0.275216    0.682775   0.86158       0.26399E-01   0.60314E-04
+  75.00  0.91562      0.013870  -11.92    0.00     0.0    24.419      0.260138    0.711632   0.88949       0.26073E-01   0.60894E-04
+  76.00  0.93443      0.014808  -11.06    0.00     0.0    22.023      0.245436    0.736728   0.90856       0.25814E-01   0.61149E-04
+  77.00  0.94404      0.015638  -10.31    0.00     0.0    19.872      0.231487    0.757420   0.91836       0.25624E-01   0.61077E-04
+  78.00  0.94426      0.016337   -9.65    0.00     0.0    17.970      0.218640    0.773150   0.91870       0.25498E-01   0.60686E-04
+  79.00  0.93514      0.016885   -9.08    0.00     0.0    16.318      0.207206    0.783457   0.90965       0.25432E-01   0.59990E-04
+ 
+1                                                      P T O L E M Y
+          COMPUTATION OF CROSS SECTIONS                                      SOPHISTICATED PROGRAMS CONTAIN SUBTLE ERRORS
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
 
- AR        A            TITLE     HEADER       RR0       R0      
- GENAUIGK  ACCURACY     UEBERSCH  HEADER       REAKTION  REACTION
- ZUTEILEN  ALLOCATE     IMAGHOCH  IMAGPOWE     REELLEHO  REALPOWE
- WINKELMA  ANGLEMAX     EINGANG   INCOMING     REELLEWE  REALWAVE
- WINKELMI  ANGLEMIN     TSO       INTERACT     END       RETURN  
- WINKELSC  ANGLESTE     SCHLUESS  KEYWORDS     QUIT      RETURN  
- BE2       BELX         LABWINKE  LABANGLE     STOP      RETURN  
- BE        BELX         LMAXHINZ  LMAXADD      EINLAGER  SAVEHS  
- BETANUCL  BETA         LMAXVERM  LMAXMULT     STEUASYM  SCATASYM
- BETAPROJ  BETAP        LMINVERM  LMINMULT     STREUUNG  SCATTERI
- BETATARG  BETAT        LMINSUBT  LMINSUB      SCHRITTL  STEPSIZE
- GEBUNDAS  BOUNDASY     LMINABZI  LMINSUB      SCHRITTE  STEPSPER
- KANAL     CHANNEL      LSCHRITT  LSTEP        SUMMEPUN  SUMPOINT
- BESTIMMU  DATA         MAXITERA  MAXITER      ZIELSCHE  TARGET  
- DUMPOCTA  DUMPHEX      KNOTEN    NODES        TRANSITI  TRANSIST
- DUMPHEXA  DUMPHEX      NAMES     NSCATALO     MITKERNG  USECORE 
- DUMPINTE  DUMPI4       NAMEN     NSCATALO     MITCOULO  USECOULO
- DUMP4     DUMPR4       KERNEINZ  NUCONLY      GEBRAUCH  USEHS   
- DUMP8     DUMPR8       AUSGANG   OUTGOING     MITWURFG  USEPROJE
- NSDUMP    DUMPR8       DRUCKEN   PRINT        MITPROJE  USEPROJE
- DWENDPUN  DWCUTOFF     WURFGESC  PROJECTI     MITZIELS  USETARGE
- ELASTISC  ELASTIC      PROJEKTI  PROJECTI     VR        V       
- ANPASSEN  FIT          VERLASSE  QUIT         W         VI      
- PASSENGE  FITACCUR     ENDE      QUIT         SCHREIBS  WRITESTE
- PASSENVE  FITRATIO     RR        R                              
+0  C.M.  REACTION     REACTION   LOW L  HIGH L   % FROM
++                                                          INCOMING ELASTIC      OUTGOING    REACTION      REACTION      REACTION
+  ANGLE  C.M. MB        /RUTH     %/L   % ERROR  L>LMAX
++                                                          C.M. MB      /RUTH      /RUTH
++                                                                                             LX = 0        LX = 1        LX = 2
+ 
+  80.00  0.91698      0.017267   -8.59    0.00     0.0    14.910      0.197443    0.787998   0.89151       0.25417E-01   0.59012E-04
+  81.00  0.89028      0.017470   -8.17    0.00     0.0    13.736      0.189550    0.786553   0.86478       0.25443E-01   0.57784E-04
+  82.00  0.85574      0.017486   -7.80    0.00     0.0    12.780      0.183657    0.779033   0.83018       0.25498E-01   0.56343E-04
+  83.00  0.81421      0.017313   -7.50    0.00     0.0    12.026      0.179828    0.765488   0.78859       0.25568E-01   0.54735E-04
+  84.00  0.76670      0.016953   -7.24    0.00     0.0    11.450      0.178054    0.746101   0.74101       0.25640E-01   0.53011E-04
+  85.00  0.71430      0.016414   -7.03    0.00     0.0    11.031      0.178259    0.721190   0.68855       0.25699E-01   0.51226E-04
+  86.00  0.65819      0.015706   -6.86    0.00     0.0    10.744      0.180303    0.691198   0.63241       0.25730E-01   0.49438E-04
+  87.00  0.59955      0.014848   -6.72    0.00     0.0    10.565      0.183990    0.656687   0.57378       0.25720E-01   0.47709E-04
+  88.00  0.53960      0.013859   -6.62    0.00     0.0    10.468      0.189074    0.618319   0.51389       0.25657E-01   0.46098E-04
+  89.00  0.47949      0.012765   -6.55    0.00     0.0    10.430      0.195273    0.576845   0.45392       0.25531E-01   0.44666E-04
+ 
+  90.00  0.42039      0.011593   -6.50    0.04     0.0    10.431      0.202275    0.533089   0.39501       0.25333E-01   0.43468E-04
+
+0TOTAL:     12.665    
++                                                         1417.1                  1157.8    
++                                                                                             12.399       0.26539       0.62035E-03
+                                                                                              97.90%         2.10%         0.00%
+
+0 JP  JT  LX MX      TOTAL      PERCENT     (VALUES FOR M > 0 NOT DOUBLED.)
+
+  1/2  1/2  0  0     12.399       97.90
+  1/2  1/2  1  1    0.30635E-01    0.24
+  3/2  1/2  1  1    0.10206        0.81
+  3/2  1/2  2  0    0.16128E-03    0.00
+  3/2  1/2  2  1    0.12391E-04    0.00
+  3/2  1/2  2  2    0.21714E-03    0.00
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> REACTION <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
+0  C.M.       iT11       T20       T21       T22
+  ANGLE
+
+   0.00     0.00000   0.00139   0.00000   0.00000
+   1.00    -0.00174   0.00139  -0.00002   0.00000
+   2.00    -0.00353   0.00140  -0.00003  -0.00001
+   3.00    -0.00540   0.00142  -0.00005  -0.00001
+   4.00    -0.00740   0.00145  -0.00006  -0.00003
+   5.00    -0.00959   0.00149  -0.00008  -0.00004
+   6.00    -0.01204   0.00153  -0.00010  -0.00007
+   7.00    -0.01483   0.00159  -0.00013  -0.00010
+   8.00    -0.01808   0.00165  -0.00016  -0.00014
+   9.00    -0.02194   0.00173  -0.00019  -0.00020
+
+  10.00    -0.02662   0.00183  -0.00023  -0.00029
+  11.00    -0.03244   0.00193  -0.00028  -0.00040
+  12.00    -0.03988   0.00206  -0.00034  -0.00057
+  13.00    -0.04971   0.00219  -0.00043  -0.00082
+  14.00    -0.06325   0.00232  -0.00054  -0.00121
+  15.00    -0.08295   0.00241  -0.00071  -0.00190
+  16.00    -0.11373   0.00228  -0.00097  -0.00322
+  17.00    -0.16642   0.00127  -0.00143  -0.00624
+  18.00    -0.25961  -0.00435  -0.00228  -0.01524
+  19.00    -0.21637  -0.03244  -0.00228  -0.04059
+
+  20.00     0.22733  -0.03013   0.00144  -0.02124
+  21.00     0.21342  -0.01344   0.00152  -0.00575
+  22.00     0.16664  -0.00733   0.00120  -0.00170
+  23.00     0.13585  -0.00458   0.00096  -0.00026
+  24.00     0.11554  -0.00307   0.00080   0.00039
+  25.00     0.10134  -0.00211   0.00068   0.00074
+  26.00     0.09083  -0.00143   0.00059   0.00097
+  27.00     0.08266  -0.00092   0.00051   0.00113
+  28.00     0.07599  -0.00051   0.00044   0.00126
+  29.00     0.07031  -0.00016   0.00038   0.00137
+
+  30.00     0.06523   0.00015   0.00031   0.00146
+  31.00     0.06049   0.00043   0.00025   0.00155
+  32.00     0.05587   0.00070   0.00019   0.00163
+  33.00     0.05119   0.00095   0.00013   0.00171
+  34.00     0.04628   0.00118   0.00006   0.00178
+  35.00     0.04098   0.00142  -0.00002   0.00184
+  36.00     0.03515   0.00164  -0.00010   0.00189
+  37.00     0.02861   0.00185  -0.00019   0.00193
+  38.00     0.02121   0.00206  -0.00029   0.00194
+  39.00     0.01279   0.00225  -0.00040   0.00193
+
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> REACTION <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
+0  C.M.       iT11       T20       T21       T22
+  ANGLE
+
+  40.00     0.00317   0.00241  -0.00052   0.00189
+  41.00    -0.00781   0.00255  -0.00066   0.00180
+  42.00    -0.02034   0.00264  -0.00080   0.00166
+  43.00    -0.03456   0.00268  -0.00096   0.00145
+  44.00    -0.05062   0.00265  -0.00114   0.00114
+  45.00    -0.06863   0.00253  -0.00132   0.00073
+  46.00    -0.08866   0.00228  -0.00152   0.00018
+  47.00    -0.11066   0.00189  -0.00172  -0.00053
+  48.00    -0.13452   0.00132  -0.00193  -0.00145
+  49.00    -0.15989   0.00051  -0.00213  -0.00262
+
+  50.00    -0.18615  -0.00060  -0.00232  -0.00409
+  51.00    -0.21226  -0.00205  -0.00248  -0.00591
+  52.00    -0.23648  -0.00393  -0.00259  -0.00813
+  53.00    -0.25612  -0.00630  -0.00261  -0.01081
+  54.00    -0.26720  -0.00920  -0.00252  -0.01393
+  55.00    -0.26425  -0.01258  -0.00225  -0.01740
+  56.00    -0.24078  -0.01627  -0.00175  -0.02098
+  57.00    -0.19108  -0.01989  -0.00101  -0.02419
+  58.00    -0.11370  -0.02282  -0.00004  -0.02641
+  59.00    -0.01522  -0.02439   0.00103  -0.02699
+
+  60.00     0.08957  -0.02418   0.00203  -0.02566
+  61.00     0.18330  -0.02229   0.00281  -0.02268
+  62.00     0.25374  -0.01923   0.00327  -0.01872
+  63.00     0.29728  -0.01567   0.00344  -0.01450
+  64.00     0.31696  -0.01214   0.00339  -0.01054
+  65.00     0.31860  -0.00893   0.00318  -0.00709
+  66.00     0.30800  -0.00617   0.00288  -0.00423
+  67.00     0.28979  -0.00387   0.00255  -0.00193
+  68.00     0.26722  -0.00200   0.00220  -0.00010
+  69.00     0.24244  -0.00049   0.00186   0.00133
+
+  70.00     0.21676   0.00071   0.00152   0.00243
+  71.00     0.19100   0.00166   0.00121   0.00327
+  72.00     0.16558   0.00239   0.00091   0.00390
+  73.00     0.14074   0.00295   0.00063   0.00435
+  74.00     0.11655   0.00336   0.00036   0.00466
+  75.00     0.09302   0.00364   0.00011   0.00484
+  76.00     0.07007   0.00380  -0.00013   0.00491
+  77.00     0.04764   0.00387  -0.00037   0.00488
+  78.00     0.02560   0.00383  -0.00059   0.00475
+  79.00     0.00383   0.00371  -0.00081   0.00454
+
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> REACTION <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
+0  C.M.       iT11       T20       T21       T22
+  ANGLE
+
+  80.00    -0.01779   0.00349  -0.00103   0.00423
+  81.00    -0.03940   0.00318  -0.00124   0.00383
+  82.00    -0.06115   0.00277  -0.00146   0.00333
+  83.00    -0.08320   0.00225  -0.00167   0.00271
+  84.00    -0.10571   0.00161  -0.00189   0.00196
+  85.00    -0.12886   0.00083  -0.00211   0.00105
+  86.00    -0.15283  -0.00012  -0.00234  -0.00004
+  87.00    -0.17784  -0.00126  -0.00258  -0.00134
+  88.00    -0.20410  -0.00265  -0.00282  -0.00292
+  89.00    -0.23186  -0.00432  -0.00308  -0.00483
+
+  90.00    -0.26133  -0.00637  -0.00335  -0.00717
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> INCOMING <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
+0  C.M.       iT11       T20       T21       T22
+  ANGLE
+
+   0.00     0.00000   0.00000   0.00000   0.00000
+   1.00     0.00000   0.00000   0.00000   0.00000
+   2.00     0.00000   0.00000   0.00000   0.00000
+   3.00    -0.00003   0.00000   0.00000   0.00000
+   4.00    -0.00002   0.00000   0.00000   0.00000
+   5.00     0.00010  -0.00001   0.00000   0.00000
+   6.00     0.00023  -0.00001   0.00000   0.00000
+   7.00     0.00023  -0.00001   0.00000   0.00000
+   8.00     0.00004   0.00000   0.00000   0.00000
+   9.00    -0.00030   0.00001   0.00000   0.00000
+
+  10.00    -0.00073   0.00002   0.00000   0.00000
+  11.00    -0.00113   0.00004   0.00000   0.00000
+  12.00    -0.00141   0.00004  -0.00001  -0.00001
+  13.00    -0.00149   0.00004  -0.00001  -0.00001
+  14.00    -0.00133   0.00003  -0.00001  -0.00001
+  15.00    -0.00093   0.00002   0.00000  -0.00001
+  16.00    -0.00030   0.00000   0.00000  -0.00001
+  17.00     0.00047  -0.00003   0.00000  -0.00001
+  18.00     0.00130  -0.00005   0.00001   0.00000
+  19.00     0.00211  -0.00007   0.00002   0.00001
+
+  20.00     0.00283  -0.00008   0.00002   0.00002
+  21.00     0.00342  -0.00009   0.00003   0.00003
+  22.00     0.00382  -0.00009   0.00003   0.00005
+  23.00     0.00405  -0.00008   0.00003   0.00006
+  24.00     0.00409  -0.00007   0.00004   0.00008
+  25.00     0.00396  -0.00004   0.00003   0.00010
+  26.00     0.00367  -0.00001   0.00003   0.00011
+  27.00     0.00327   0.00002   0.00003   0.00013
+  28.00     0.00276   0.00006   0.00002   0.00014
+  29.00     0.00221   0.00011   0.00000   0.00015
+
+  30.00     0.00163   0.00015  -0.00001   0.00016
+  31.00     0.00109   0.00020  -0.00003   0.00016
+  32.00     0.00061   0.00024  -0.00004   0.00015
+  33.00     0.00025   0.00027  -0.00006   0.00013
+  34.00     0.00004   0.00028  -0.00008   0.00010
+  35.00     0.00002   0.00029  -0.00010   0.00006
+  36.00     0.00020   0.00027  -0.00012   0.00001
+  37.00     0.00059   0.00024  -0.00013  -0.00005
+  38.00     0.00122   0.00019  -0.00014  -0.00012
+  39.00     0.00207   0.00012  -0.00014  -0.00020
+
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> INCOMING <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
+0  C.M.       iT11       T20       T21       T22
+  ANGLE
+
+  40.00     0.00316   0.00003  -0.00013  -0.00029
+  41.00     0.00447  -0.00008  -0.00012  -0.00038
+  42.00     0.00600  -0.00020  -0.00010  -0.00048
+  43.00     0.00775  -0.00032  -0.00008  -0.00057
+  44.00     0.00972  -0.00046  -0.00004  -0.00066
+  45.00     0.01188  -0.00059   0.00000  -0.00074
+  46.00     0.01422  -0.00072   0.00004  -0.00080
+  47.00     0.01670  -0.00083   0.00010  -0.00085
+  48.00     0.01927  -0.00093   0.00015  -0.00087
+  49.00     0.02187  -0.00099   0.00021  -0.00086
+
+  50.00     0.02440  -0.00103   0.00027  -0.00081
+  51.00     0.02677  -0.00102   0.00033  -0.00072
+  52.00     0.02886  -0.00096   0.00038  -0.00059
+  53.00     0.03055  -0.00086   0.00042  -0.00043
+  54.00     0.03175  -0.00071   0.00045  -0.00022
+  55.00     0.03236  -0.00052   0.00047   0.00002
+  56.00     0.03233  -0.00029   0.00047   0.00028
+  57.00     0.03164  -0.00004   0.00046   0.00056
+  58.00     0.03028   0.00024   0.00043   0.00084
+  59.00     0.02829   0.00052   0.00039   0.00111
+
+  60.00     0.02573   0.00080   0.00033   0.00137
+  61.00     0.02266   0.00106   0.00027   0.00160
+  62.00     0.01916   0.00130   0.00019   0.00181
+  63.00     0.01531   0.00151   0.00010   0.00197
+  64.00     0.01120   0.00169   0.00001   0.00209
+  65.00     0.00688   0.00182  -0.00009   0.00216
+  66.00     0.00245   0.00190  -0.00019   0.00217
+  67.00    -0.00202   0.00193  -0.00030   0.00212
+  68.00    -0.00644   0.00190  -0.00040   0.00201
+  69.00    -0.01073   0.00180  -0.00051   0.00182
+
+  70.00    -0.01477   0.00162  -0.00060   0.00156
+  71.00    -0.01844   0.00137  -0.00070   0.00121
+  72.00    -0.02159   0.00104  -0.00078   0.00076
+  73.00    -0.02402   0.00061  -0.00085   0.00022
+  74.00    -0.02553   0.00009  -0.00090  -0.00042
+  75.00    -0.02588  -0.00053  -0.00093  -0.00116
+  76.00    -0.02481  -0.00122  -0.00093  -0.00199
+  77.00    -0.02205  -0.00200  -0.00090  -0.00289
+  78.00    -0.01739  -0.00281  -0.00082  -0.00383
+  79.00    -0.01069  -0.00364  -0.00070  -0.00478
+
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> INCOMING <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        12.00 MEV                                                                      
+0  C.M.       iT11       T20       T21       T22
+  ANGLE
+
+  80.00    -0.00197  -0.00443  -0.00054  -0.00567
+  81.00     0.00859  -0.00512  -0.00033  -0.00643
+  82.00     0.02054  -0.00566  -0.00008  -0.00701
+  83.00     0.03326  -0.00598   0.00019  -0.00735
+  84.00     0.04597  -0.00606   0.00046  -0.00739
+  85.00     0.05787  -0.00588   0.00073  -0.00713
+  86.00     0.06826  -0.00544   0.00097  -0.00659
+  87.00     0.07660  -0.00479   0.00118  -0.00580
+  88.00     0.08261  -0.00397   0.00134  -0.00481
+  89.00     0.08621  -0.00303   0.00145  -0.00370
+
+  90.00     0.08749  -0.00202   0.00151  -0.00251
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> OUTGOING <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        21.88 MEV                                                                      
+0  C.M.       iT11
+  ANGLE
+
+   0.00     0.00000
+   1.00     0.00000
+   2.00     0.00000
+   3.00     0.00004
+   4.00     0.00009
+   5.00     0.00008
+   6.00    -0.00003
+   7.00    -0.00026
+   8.00    -0.00062
+   9.00    -0.00109
+
+  10.00    -0.00161
+  11.00    -0.00211
+  12.00    -0.00250
+  13.00    -0.00265
+  14.00    -0.00244
+  15.00    -0.00175
+  16.00    -0.00052
+  17.00     0.00125
+  18.00     0.00351
+  19.00     0.00614
+
+  20.00     0.00901
+  21.00     0.01195
+  22.00     0.01483
+  23.00     0.01752
+  24.00     0.01992
+  25.00     0.02192
+  26.00     0.02345
+  27.00     0.02443
+  28.00     0.02478
+  29.00     0.02440
+
+  30.00     0.02322
+  31.00     0.02114
+  32.00     0.01807
+  33.00     0.01390
+  34.00     0.00857
+  35.00     0.00199
+  36.00    -0.00590
+  37.00    -0.01510
+  38.00    -0.02562
+  39.00    -0.03737
+
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> OUTGOING <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        21.88 MEV                                                                      
+0  C.M.       iT11
+  ANGLE
+
+  40.00    -0.05025
+  41.00    -0.06405
+  42.00    -0.07849
+  43.00    -0.09323
+  44.00    -0.10782
+  45.00    -0.12170
+  46.00    -0.13423
+  47.00    -0.14467
+  48.00    -0.15216
+  49.00    -0.15579
+
+  50.00    -0.15458
+  51.00    -0.14754
+  52.00    -0.13379
+  53.00    -0.11266
+  54.00    -0.08388
+  55.00    -0.04779
+  56.00    -0.00547
+  57.00     0.04116
+  58.00     0.08944
+  59.00     0.13631
+
+  60.00     0.17873
+  61.00     0.21417
+  62.00     0.24094
+  63.00     0.25836
+  64.00     0.26661
+  65.00     0.26654
+  66.00     0.25936
+  67.00     0.24642
+  68.00     0.22903
+  69.00     0.20832
+
+  70.00     0.18525
+  71.00     0.16060
+  72.00     0.13493
+  73.00     0.10868
+  74.00     0.08214
+  75.00     0.05553
+  76.00     0.02896
+  77.00     0.00252
+  78.00    -0.02376
+  79.00    -0.04990
+
+1                                                      P T O L E M Y
+          ANALYZING POWERS FOR THE  >>>> OUTGOING <<<<  CHANNEL
+088Rb(d,p)89Rb(0.0 3/2-)                        21.88 MEV                                                                      
+0  C.M.       iT11
+  ANGLE
+
+  80.00    -0.07590
+  81.00    -0.10181
+  82.00    -0.12767
+  83.00    -0.15352
+  84.00    -0.17941
+  85.00    -0.20537
+  86.00    -0.23141
+  87.00    -0.25752
+  88.00    -0.28363
+  89.00    -0.30961
+
+  90.00    -0.33522
+0
+0
+0CPU TIMES FOR CROSS SECTIONS (SECONDS):
+0PRINTING PHASE SHIFTS            0.000
+ ELASTIC CROSS SECTIONS           0.001
+ BETA'S (SUM ON LI)               0.000
+ REACTION CROSS SECTIONS          0.002          (   0.13 MFLOPS = 63.459 MFLOP/SEC )
+ REACTION ANALYZING POWERS        0.000
+ ELASTIC ANALYZING POWERS         0.001
+ ALL OTHER TIME                   0.000
+ TOTAL TIME                              0.004
+
+0
+0INPUT... writens crosssec
+ NUMBERED STORAGE OBJECT 120 with     91 elements WRITTEN TO FT15 WITH 5G14.5 FORMAT
+0INPUT... end
+0               ALLOCATOR STATISTICS
+                                        WORDS   KILOBYTES
+ ALLOCATOR SIZE:                      6249990   48828.0
+ CURRENT UNCOMPRESSED SIZE:             78807     615.7
+ CURRENT COMPRESSED SIZE:                6497      50.8
+ PEAK COMPRESSED SIZE:                  60047     469.1
+0NAME STACK SIZE:                         500
+ CURRENT HIGHEST NAME:                    132
+ CURRENT NAMES IN USE:                     44
+ PEAK NAMES IN USE:                        70
+ NUMBER OF ALLOCATOR COMPRESSES:            0
+
+
+-TOTAL PTOLEMY CPU TIME =   0.07 SECONDS.
