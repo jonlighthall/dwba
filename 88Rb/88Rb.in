@@ -1,67 +1,64 @@
 reset
 print 0
-$------------------------------------------------
-$ Transition to S(n) energy with l_n=0
 r0target
-JBIGA=2 parbiga=-1  $the ground state of 88Rb is 2-
-REACTION: 88Rb(d,p)89Rb(1/2- 7.175) ELAB=12.08460998 
+JBIGA = 0 parbiga = +1
+REACTION:   28Si(d,p)29Si(0.0 1/2+)   ELAB = 12
 PARAMETERSET alpha2
 PROJECTILE
-R=1 A=0.5 WAVEFUNCTION=REID L=0 
-Rc=1.2
+R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
-NODES=1
-R0=1.25 A=.63 L=0
-VSO=7 RSO0=1.10 ASO=.5
+NODES = 1 
+R0 = 1.28   A=.76 L=0 
+VSO = 6   RSO0 = 1.09   ASO = .6
 ;
 INCOMING
-$Deuteron potential calculated for Z=37 A=88 E_d=0.000000
+$Deuteron potential calculated for Z=14 A=28 E_d=12.132380
 $Charge Radius
 RC0 = 1.303000
 $Real Volume Terms
-V = 97.190426
-R0 = 1.150255
-A = 0.775044
+V = 91.806012
+R0 = 1.149445
+A = 0.757261
 $Imaginary Volume Terms
-VI = 1.104000
-RI0 = 1.327415
-AI = 0.410204
+VI = 1.858634
+RI0 = 1.337833
+AI = 0.551341
 $Imaginary Surface Terms
-VSI = 10.830000
-RSI0 = 1.368173
-ASI= 0.806774
+VSI = 10.458749
+RSI0 = 1.384056
+ASI= 0.719269
 $Real Spin-Orbit Terms
 VSO = 3.557000
 RSO0 = 0.972000
 ASO = 1.011000
 ;
 OUTGOING
-$Proton potential calculated for Z=37 Ac=89 E_p=9.481725
+$Proton potential calculated for Z=14 Ac=29 E_p=16.980000
 $Charge Radius
-RC0 = 1.240290
+RC0 = 1.319311
 $Real Volume Terms
-V = 58.271740
-R0 = 1.213100
-A = 0.664566
+V = 51.547747
+R0 = 1.171947
+A = 0.673488
 $Imaginary Volume Terms
-VI = 0.635902
-RI0 = 1.213100
-AI = 0.664566
+VI = 1.463105
+RI0 = 1.171947
+AI = 0.673488
 $Imaginary Surface Terms
-VSI = 13.001616
-RSI0 = 1.271634
-ASI= 0.565025
+VSI = 9.599430
+RSI0 = 1.293704
+ASI= 0.533795
 $Real Spin-Orbit Terms
-VSO = 5.789942
-RSO0 = 1.040487
+VSO = 5.437432
+RSO0 = 0.974810
 ASO = 0.590000
 $Imaginary Spin-Orbit Terms
-VSOI = -0.033261
-RSOI0 = 1.040487
+VSOI = -0.073810
+RSOI0 = 0.974810
 ASOI = 0.590000
 ;
-ANGLEMAX=180 anglestep = 1
+ANGLEMAX = 90   anglestep = 1
 ;
 writens crosssec
 end
