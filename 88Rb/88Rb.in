@@ -2,15 +2,15 @@ reset
 print 0
 r0target
 $JBIGA = 0 parbiga = +1
-REACTION:  88Rb(d,p)89Rb(7.174655 3/2)   ELAB = 12.084610
+REACTION:  88Rb(d,p)89Rb(7.174655)   ELAB = 12.084610
 PARAMETERSET alpha2
 PROJECTILE $deuteron bound state parameters
-ASYMPTOPIA = 11.42
+$ASYMPTOPIA = 11.42
 R = 1  A = 0.5  WAVEFUNCTION = REID L = 0 
 ;
 TARGET
-ASYMPTOPIA = 40
-NODES = 3
+$ASYMPTOPIA = 40
+$NODES = 3
 R0 = 1.28   A=.76 L=0 
 VSO = 6   RSO0 = 1.09   ASO = .6
 ;
@@ -31,9 +31,9 @@ VSI = 10.460211
 RSI0 = 1.368173
 ASI= 0.806774
 $Real Spin-Orbit Terms
-VSO = 3.557000
-RSO0 = 0.972000
-ASO = 1.011000
+$VSO = 3.557000
+$RSO0 = 0.972000
+$ASO = 1.011000
 ;
 OUTGOING
 $Proton potential calculated for Z=37 Ac=89 E_p=9.481725
@@ -52,15 +52,15 @@ VSI = 13.001616
 RSI0 = 1.271634
 ASI= 0.565025
 $Real Spin-Orbit Terms
-VSO = 5.789942
-RSO0 = 1.040487
-ASO = 0.590000
+$VSO = 5.789942
+$RSO0 = 1.040487
+$ASO = 0.590000
 $Imaginary Spin-Orbit Terms
-VSOI = -0.033261
-RSOI0 = 1.040487
-ASOI = 0.590000
+$VSOI = -0.033261
+$RSOI0 = 1.040487
+$ASOI = 0.590000
 ;
-ANGLEMAX = 90   anglestep = 1
+ANGLEMAX = 180   anglestep = 1
 ;
 writens crosssec
 end
