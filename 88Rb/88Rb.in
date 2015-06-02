@@ -67,7 +67,7 @@ VSO = 6   RSO0 = 1.09   ASO = .6
 ;
 INCOMING
 $Deuteron potential calculated for Z=37 A=88 E_d=12.084610
-¯$Charge Radius
+$Charge Radius
 RC0 = 1.303000
 $Real Volume Terms
 V = 94.198298 R0 = 1.150255 A = 0.775044
