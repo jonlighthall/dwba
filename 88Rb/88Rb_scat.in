@@ -1,0 +1,31 @@
+reset
+channel p + 88Rb
+ELAB = 5.98
+$Proton potential calculated for Z=37 Ac=88 E_p=6.046950
+$Charge Radius
+RC0 = 1.240693
+$Real Volume Terms
+V = 59.639671
+R0 = 1.212757
+A = 0.664714
+$Imaginary Volume Terms
+VI = 0.408280
+RI0 = 1.212757
+AI = 0.664714
+$Imaginary Surface Terms
+VSI = 13.895073
+RSI0 = 1.271900
+ASI= 0.564504
+$Real Spin-Orbit Terms
+VSO = 5.866871
+RSO0 = 1.039940
+ASO = 0.590000
+$Imaginary Spin-Orbit Terms
+VSOI = -0.021089
+RSOI0 = 1.039940
+ASOI = 0.590000
+ELASTIC SCATTERING
+$labangles
+anglemin=0 anglemax=180 anglestep=1.0
+;
+end
