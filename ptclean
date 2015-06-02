@@ -1,0 +1,16 @@
+#! /bin/bash
+
+for i in *.out; do
+
+	if [ -f $i ]; then
+
+		echo $i;
+
+		#Clean up Ptolemy output - output only angles and cross-sections
+		python ./ptclr.py $i
+		
+		else echo 'No .out files found';
+
+	fi;
+
+done;
