@@ -1,0 +1,117 @@
+reset
+REACTION: 88Rb(d,p)89Rb(3/2- 0.00) ELAB=12.085
+PARAMETERSET dpsb r0target lstep=1 lmin=0 lmax=30 maxlextrap=0 asymptopia=30
+PROJECTILE wavefunction av18 r0=1 a=0.5 l=0
+;
+TARGET
+nodes=2 l=0 r0=1.28 a=.65 vso=6 rso0=1.1 aso=.65 rc0=1.3
+;
+INCOMING
+v = 94.198 r0 = 1.150 a = 0.775   
+vi = 1.856 ri0 = 1.327 ai = 0.410   
+vsi = 10.460 rsi0 = 1.368 asi = 0.807   
+vso = 3.557 rso0 = 0.972 aso = 1.011 rc0 = 1.303
+;
+OUTGOING
+v = 55.911 R0 = 1.170 A = 0.750   
+VI = 1.046 RI0 = 1.320 AI = 0.628   
+VSI = 9.566 RSI0 = 1.320 ASI = 0.628   
+VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
+;
+anglemin=5 anglemax=5 anglestep=1
+;
+
+reset
+REACTION: 88Rb(d,p)89Rb(3/2- 2.00) ELAB=12.085
+PARAMETERSET dpsb r0target lstep=1 lmin=0 lmax=30 maxlextrap=0 asymptopia=30
+PROJECTILE wavefunction av18 r0=1 a=0.5 l=0
+;
+TARGET
+nodes=2 l=0 r0=1.28 a=.65 vso=6 rso0=1.1 aso=.65 rc0=1.3
+;
+INCOMING
+v = 94.198 r0 = 1.150 a = 0.775   
+vi = 1.856 ri0 = 1.327 ai = 0.410   
+vsi = 10.460 rsi0 = 1.368 asi = 0.807   
+vso = 3.557 rso0 = 0.972 aso = 1.011 rc0 = 1.303
+;
+OUTGOING
+v = 56.553 R0 = 1.170 A = 0.750   
+VI = 0.605 RI0 = 1.320 AI = 0.628   
+VSI = 10.067 RSI0 = 1.320 ASI = 0.628   
+VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
+;
+anglemin=5 anglemax=5 anglestep=1
+;
+
+reset
+REACTION: 88Rb(d,p)89Rb(3/2- 4.00) ELAB=12.085
+PARAMETERSET dpsb r0target lstep=1 lmin=0 lmax=30 maxlextrap=0 asymptopia=30
+PROJECTILE wavefunction av18 r0=1 a=0.5 l=0
+;
+TARGET
+nodes=2 l=0 r0=1.28 a=.65 vso=6 rso0=1.1 aso=.65 rc0=1.3
+;
+INCOMING
+v = 94.198 r0 = 1.150 a = 0.775   
+vi = 1.856 ri0 = 1.327 ai = 0.410   
+vsi = 10.460 rsi0 = 1.368 asi = 0.807   
+vso = 3.557 rso0 = 0.972 aso = 1.011 rc0 = 1.303
+;
+OUTGOING
+v = 57.195 R0 = 1.170 A = 0.750   
+VI = 0.163 RI0 = 1.320 AI = 0.628   
+VSI = 10.569 RSI0 = 1.320 ASI = 0.628   
+VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
+;
+anglemin=5 anglemax=5 anglestep=1
+;
+
+reset
+REACTION: 88Rb(d,p)89Rb(3/2- 6.00) ELAB=12.085
+PARAMETERSET dpsb r0target lstep=1 lmin=0 lmax=30 maxlextrap=0 asymptopia=30
+PROJECTILE wavefunction av18 r0=1 a=0.5 l=0
+;
+TARGET
+nodes=2 l=0 r0=1.28 a=.65 vso=6 rso0=1.1 aso=.65 rc0=1.3
+;
+INCOMING
+v = 94.198 r0 = 1.150 a = 0.775   
+vi = 1.856 ri0 = 1.327 ai = 0.410   
+vsi = 10.460 rsi0 = 1.368 asi = 0.807   
+vso = 3.557 rso0 = 0.972 aso = 1.011 rc0 = 1.303
+;
+OUTGOING
+v = 57.838 R0 = 1.170 A = 0.750   
+VI = 0.000 RI0 = 1.320 AI = 0.628   
+VSI = 11.071 RSI0 = 1.320 ASI = 0.628   
+VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
+;
+anglemin=5 anglemax=5 anglestep=1
+;
+
+reset
+REACTION: 88Rb(d,p)89Rb(3/2- 8.00) ELAB=12.085
+Q=-0.1
+PARAMETERSET dpsb r0target lstep=1 lmin=0 lmax=30 maxlextrap=0 asymptopia=30
+PROJECTILE wavefunction av18 r0=1 a=0.5 l=0
+;
+TARGET
+nodes=2 l=0 r0=1.28 a=.65 vso=6 rso0=1.1 aso=.65 rc0=1.3
+;
+INCOMING
+v = 94.198 r0 = 1.150 a = 0.775   
+vi = 1.856 ri0 = 1.327 ai = 0.410   
+vsi = 10.460 rsi0 = 1.368 asi = 0.807   
+vso = 3.557 rso0 = 0.972 aso = 1.011 rc0 = 1.303
+;
+OUTGOING
+v = 58.482 R0 = 1.170 A = 0.750   
+VI = 0.000 RI0 = 1.320 AI = 0.628   
+VSI = 11.574 RSI0 = 1.320 ASI = 0.628   
+VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
+;
+anglemin=5 anglemax=5 anglestep=1
+;
+
+end
