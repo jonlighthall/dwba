@@ -18,7 +18,7 @@ VI = 1.046 RI0 = 1.320 AI = 0.628
 VSI = 9.566 RSI0 = 1.320 ASI = 0.628   
 VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
 ;
-anglemin=5 anglemax=5 anglestep=1
+anglemax=180 anglestep=1
 ;
 
 reset
@@ -41,7 +41,7 @@ VI = 0.605 RI0 = 1.320 AI = 0.628
 VSI = 10.067 RSI0 = 1.320 ASI = 0.628   
 VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
 ;
-anglemin=5 anglemax=5 anglestep=1
+ anglemax=180 anglestep=1
 ;
 
 reset
@@ -64,7 +64,7 @@ VI = 0.163 RI0 = 1.320 AI = 0.628
 VSI = 10.569 RSI0 = 1.320 ASI = 0.628   
 VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
 ;
-anglemin=5 anglemax=5 anglestep=1
+ anglemax=180 anglestep=1
 ;
 
 reset
@@ -87,7 +87,7 @@ VI = 0.000 RI0 = 1.320 AI = 0.628
 VSI = 11.071 RSI0 = 1.320 ASI = 0.628   
 VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
 ;
-anglemin=5 anglemax=5 anglestep=1
+ anglemax=180 anglestep=1
 ;
 
 reset
@@ -111,7 +111,7 @@ VI = 0.000 RI0 = 1.320 AI = 0.628
 VSI = 11.574 RSI0 = 1.320 ASI = 0.628   
 VSO = 6.200 RSO0 = 1.010 ASO = 0.750 RC0 = 1.300
 ;
-anglemin=5 anglemax=5 anglestep=1
+ anglemax=180 anglestep=1
 ;
 
 end
