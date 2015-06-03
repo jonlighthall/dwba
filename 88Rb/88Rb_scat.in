@@ -1,29 +1,17 @@
 reset
-channel p + 88Rb
-ELAB = 5.98
-$Proton potential calculated for Z=37 Ac=88 E_p=6.046950
+channel d + 88Rb
+ELAB = 12.08461
+$Deuteron potential calculated for Z=37 A=88 E_d=12.084610
 $Charge Radius
-RC0 = 1.240693
+RC0 = 1.303000
 $Real Volume Terms
-V = 59.639671
-R0 = 1.212757
-A = 0.664714
+V = 94.198298 R0 = 1.150255 A = 0.775044
 $Imaginary Volume Terms
-VI = 0.408280
-RI0 = 1.212757
-AI = 0.664714
+VI = 1.855663 RI0 = 1.327415 AI = 0.410204
 $Imaginary Surface Terms
-VSI = 13.895073
-RSI0 = 1.271900
-ASI= 0.564504
+VSI = 10.460211 RSI0 = 1.368173 ASI= 0.806774
 $Real Spin-Orbit Terms
-VSO = 5.866871
-RSO0 = 1.039940
-ASO = 0.590000
-$Imaginary Spin-Orbit Terms
-VSOI = -0.021089
-RSOI0 = 1.039940
-ASOI = 0.590000
+VSO = 3.557000 RSO0 = 0.972000 ASO = 1.011000
 ELASTIC SCATTERING
 $labangles
 anglemin=0 anglemax=180 anglestep=1.0
